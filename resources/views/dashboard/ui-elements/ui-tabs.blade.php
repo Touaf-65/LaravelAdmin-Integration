@@ -8,7 +8,7 @@
       <title>Webkit | Responsive Bootstrap 4 Admin Dashboard Template</title>
       
       <!-- Favicon -->
-            <link rel="shortcut icon" href="{{asset('assets/auth/images/favicon.ico')}}" />
+<link rel="shortcut icon" href="{{asset('assets/auth/images/favicon.ico')}}" />
       <link rel="stylesheet" href="{{asset('assets/auth/css/backend-plugin.min.css')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/css/backend.css?v=1.0.0')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css')}}">
@@ -40,8 +40,8 @@
           <div class="data-scrollbar" data-scroll="1">
               <nav class="iq-sidebar-menu">
                   <ul id="iq-sidebar-toggle" class="iq-menu">
-                      <li class="active">
-                          <a href="{{route('Dashboard')}}" class="svg-icon">                        
+                      <li class="">
+                          <a href="../backend/index.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                                   <polyline points="9 22 9 12 15 12 15 22"></polyline>
@@ -50,7 +50,7 @@
                           </a>
                       </li>
                       <li class="">
-                          <a href="{{route('Projects')}}" class="svg-icon">                        
+                          <a href="../backend/page-project.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <polyline points="6 9 6 2 18 2 18 9"></polyline>
                                   <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
@@ -60,7 +60,7 @@
                           </a>
                       </li>
                       <li class="">
-                          <a href="{{route('Tasks')}}" class="svg-icon">                        
+                          <a href="../backend/page-task.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
                                   <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
@@ -69,7 +69,7 @@
                           </a>
                       </li>
                       <li class="">
-                          <a href="{{route('Employees')}}" class="svg-icon">                        
+                          <a href="../backend/page-employee.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle>
                               </svg>
@@ -77,7 +77,7 @@
                           </a>
                       </li>
                       <li class="">
-                          <a href="{{route('Desk')}}" class="svg-icon">                        
+                          <a href="../backend/page-desk.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
                                   <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line>
@@ -86,7 +86,7 @@
                           </a>
                       </li>
                       <li class="">
-                          <a href="{{route('Calendar')}}" class="svg-icon">                        
+                          <a href="../backend/page-calender.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
                               </svg>
@@ -114,17 +114,17 @@
                                       </a>
                                       <ul id="user" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="{{route('User Profile')}}">
+                                                  <a href="../app/user-profile.html">
                                                       <i class="las la-minus"></i><span>User Profile</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Add User')}}">
+                                                  <a href="../app/user-add.html">
                                                       <i class="las la-minus"></i><span>User Add</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('User List')}}">
+                                                  <a href="../app/user-list.html">
                                                       <i class="las la-minus"></i><span>User List</span>
                                                   </a>
                                               </li>
@@ -141,122 +141,122 @@
                                       </a>
                                       <ul id="ui" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="{{route('Avatars')}}">
+                                                  <a href="../backend/ui-avatars.html">
                                                       <i class="las la-minus"></i><span>Avatars</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Alerts')}}">
+                                                  <a href="../backend/ui-alerts.html">
                                                       <i class="las la-minus"></i><span>Alerts</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Badges')}}">
+                                                  <a href="../backend/ui-badges.html">
                                                       <i class="las la-minus"></i><span>Badges</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Breadcrumb')}}">
+                                                  <a href="../backend/ui-breadcrumb.html">
                                                       <i class="las la-minus"></i><span>Breadcrumb</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Buttons')}}">
+                                                  <a href="../backend/ui-buttons.html">
                                                       <i class="las la-minus"></i><span>Buttons</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Buttons Group')}}">
+                                                  <a href="../backend/ui-buttons-group.html">
                                                       <i class="las la-minus"></i><span>Buttons Group</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Box Shadow')}}">
+                                                  <a href="../backend/ui-boxshadow.html">
                                                       <i class="las la-minus"></i><span>Box Shadow</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Colors')}}">
+                                                  <a href="../backend/ui-colors.html">
                                                       <i class="las la-minus"></i><span>Colors</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Cards')}}">
+                                                  <a href="../backend/ui-cards.html">
                                                       <i class="las la-minus"></i><span>Cards</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Carousel')}}">
+                                                  <a href="../backend/ui-carousel.html">
                                                       <i class="las la-minus"></i><span>Carousel</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Grid')}}">
+                                                  <a href="../backend/ui-grid.html">
                                                       <i class="las la-minus"></i><span>Grid</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Helper Classes')}}">
+                                                  <a href="../backend/ui-helper-classes.html">
                                                       <i class="las la-minus"></i><span>Helper classes</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Images')}}">
+                                                  <a href="../backend/ui-images.html">
                                                       <i class="las la-minus"></i><span>Images</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('List Group')}}">
-                                                      <i class="las la-minus"></i><span>List Group</span>
+                                                  <a href="../backend/ui-list-group.html">
+                                                      <i class="las la-minus"></i><span>list Group</span>
                                                   </a>
                                               </li>
                                               <li  class="">
-                                                  <a href="{{route('Media')}}">
+                                                  <a href="../backend/ui-media-object.html">
                                                       <i class="las la-minus"></i><span>Media</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Modal')}}">
+                                                  <a href="../backend/ui-modal.html">
                                                       <i class="las la-minus"></i><span>Modal</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Notifications')}}">
+                                                  <a href="../backend/ui-notifications.html">
                                                       <i class="las la-minus"></i><span>Notifications</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Pagination')}}">
+                                                  <a href="../backend/ui-pagination.html">
                                                       <i class="las la-minus"></i><span>Pagination</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Popovers')}}">
+                                                  <a href="../backend/ui-popovers.html">
                                                       <i class="las la-minus"></i><span>Popovers</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Progressbars')}}">
+                                                  <a href="../backend/ui-progressbars.html">
                                                       <i class="las la-minus"></i><span>Progressbars</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Typography')}}">
+                                                  <a href="../backend/ui-typography.html">
                                                       <i class="las la-minus"></i><span>Typography</span>
                                                   </a>
                                               </li>
-                                              <li class="">
-                                                  <a href="{{route('Tabs')}}">
+                                              <li class="active">
+                                                  <a href="../backend/ui-tabs.html">
                                                       <i class="las la-minus"></i><span>Tabs</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Tooltips')}}">
+                                                  <a href="../backend/ui-tooltips.html">
                                                       <i class="las la-minus"></i><span>Tooltips</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Video')}}">
+                                                  <a href="../backend/ui-embed-video.html">
                                                       <i class="las la-minus"></i><span>Video</span>
                                                   </a>
                                               </li>
@@ -273,27 +273,27 @@
                                       </a>
                                       <ul id="auth" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="{{route('Sign In')}}">
+                                                  <a href="../backend/auth-sign-in.html">
                                                       <i class="las la-minus"></i><span>Login</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Sign Up')}}">
+                                                  <a href="../backend/auth-sign-up.html">
                                                       <i class="las la-minus"></i><span>Register</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Recover Password')}}">
+                                                  <a href="../backend/auth-recoverpw.html">
                                                       <i class="las la-minus"></i><span>Recover Password</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Confirm Mail')}}">
+                                                  <a href="../backend/auth-confirm-mail.html">
                                                       <i class="las la-minus"></i><span>Confirm Mail</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Lock Screen')}}">
+                                                  <a href="../backend/auth-lock-screen.html">
                                                       <i class="las la-minus"></i><span>Lock Screen</span>
                                                   </a>
                                               </li>
@@ -473,17 +473,15 @@
               </div>
               <div class="pt-5 pb-2"></div>
           </div>
-      </div>      
-      
-      <div class="iq-top-navbar">
+      </div>      <div class="iq-top-navbar">
           <div class="iq-navbar-custom">
               <nav class="navbar navbar-expand-lg navbar-light p-0">
                   <div class="iq-navbar-logo d-flex align-items-center justify-content-between">
                       <i class="ri-menu-line wrapper-menu"></i>
-                      <!-- <a href="../backend/index.html" class="header-logo">
+                      <a href="../backend/index.html" class="header-logo">
                           <h4 class="logo-title text-uppercase">Webkit</h4>
       
-                      </a> -->
+                      </a>
                   </div>
                   <div class="navbar-breadcrumb">
                       <h5>Dashboard</h5>
@@ -718,560 +716,275 @@
                   </div>
               </nav>
           </div>
-      </div>      
-      
-      <div class="content-page">
-     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-block card-stretch card-height">
-                    <div class="card-body">
-                        <div class="top-block d-flex align-items-center justify-content-between">
-                            <h5>Investment</h5>
-                            <span class="badge badge-primary">Monthly</span>
+      </div>      <div class="content-page">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-12 col-lg-12">
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Basic Tabs</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <p>The base <code>.nav</code> component does not include any <code>.active</code> state. The following examples include the class, mainly to demonstrate that this particular class does not trigger any special styling.</p>
+                     <ul class="nav nav-tabs" id="myTab-1" role="tablist">
+                        <li class="nav-item">
+                           <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="myTabContent-2">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
-                        <h3>$<span class="counter">35000</span></h3>
-                        <div class="d-flex align-items-center justify-content-between mt-1">
-                            <p class="mb-0">Total Revenue</p>
-                            <span class="text-primary">65%</span>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
-                        <div class="iq-progress-bar bg-primary-light mt-2">
-                            <span class="bg-primary iq-progress progress-1" data-percent="65"></span>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Basic Tabs Style 3</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <p>Takes the basic nav from above and adds the <code>.nav-tabs</code> class to generate a tabbed interface.</p>
+                     <ul class="nav nav-tabs" id="myTab-two" role="tablist">
+                        <li class="nav-item">
+                           <a class="nav-link active" id="home-tab-two" data-toggle="tab" href="#home-two" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="profile-tab-two" data-toggle="tab" href="#profile-two" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="contact-tab-two" data-toggle="tab" href="#contact-two" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="myTabContent-1">
+                        <div class="tab-pane fade show active" id="home-two" role="tabpanel" aria-labelledby="home-tab-two">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="tab-pane fade" id="profile-two" role="tabpanel" aria-labelledby="profile-tab-two">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="tab-pane fade" id="contact-two" role="tabpanel" aria-labelledby="contact-tab-two">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Tabs Vertical Pills</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <p>Stack your navigation by changing the flex item direction with the <code>.flex-column</code> utility.</p>
+                     <div class="row">
+                        <div class="col-sm-3">
+                           <div class="nav flex-column nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                              <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                              <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+                              <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                           </div>
+                        </div>
+                        <div class="col-sm-9">
+                           <div class="tab-content mt-0" id="v-pills-tabContent">
+                              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                              </div>
+                              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                              </div>
+                              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                              </div>
+                              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Tabs Justify Center</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <p>Centered with <code>.justify-content-center</code></p>
+                     <ul class="nav nav-tabs justify-content-center" id="myTab-2" role="tablist">
+                        <li class="nav-item">
+                           <a class="nav-link active" id="home-tab-justify" data-toggle="tab" href="#home-justify" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="profile-tab-justify" data-toggle="tab" href="#profile-justify" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="contact-tab-justify" data-toggle="tab" href="#contact-justify" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="myTabContent-3">
+                        <div class="tab-pane fade show active" id="home-justify" role="tabpanel" aria-labelledby="home-tab-justify">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="tab-pane fade" id="profile-justify" role="tabpanel" aria-labelledby="profile-tab-justify">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="tab-pane fade" id="contact-justify" role="tabpanel" aria-labelledby="contact-tab-justify">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-block card-stretch card-height">
-                    <div class="card-body">
-                        <div class="top-block d-flex align-items-center justify-content-between">
-                            <h5>Sales</h5>
-                            <span class="badge badge-warning">Anual</span>
+            <div class="col-sm-12 col-lg-12">
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Basic Tabs Style 2</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <p>Take that same HTML, but use <code>.nav-pills</code> instead:</p>
+                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                           <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="pills-tabContent-2">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
-                        <h3>$<span class="counter">25100</span></h3>
-                        <div class="d-flex align-items-center justify-content-between mt-1">
-                            <p class="mb-0">Total Revenue</p>
-                            <span class="text-warning">35%</span>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
-                        <div class="iq-progress-bar bg-warning-light mt-2">
-                            <span class="bg-warning iq-progress progress-1" data-percent="35"></span>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Basic Tabs Style 4</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <p>Takes the basic nav from above and adds the <code>.nav-tabs</code> class to generate a tabbed interface.</p>
+                     <ul class="nav nav-tabs" id="myTab-three" role="tablist">
+                        <li class="nav-item">
+                           <a class="nav-link active" id="home-tab-three" data-toggle="tab" href="#home-three" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="profile-tab-three" data-toggle="tab" href="#profile-three" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="contact-tab-three" data-toggle="tab" href="#contact-three" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="myTabContent-4">
+                        <div class="tab-pane fade show active" id="home-three" role="tabpanel" aria-labelledby="home-tab-three">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="tab-pane fade" id="profile-three" role="tabpanel" aria-labelledby="profile-tab-three">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="tab-pane fade" id="contact-three" role="tabpanel" aria-labelledby="contact-tab-three">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Tabs Fill and justify</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <p>Force your <code>.nav</code>’s contents to extend the full available width one of two modifier classes. To proportionately fill all available space with your <code>.nav-item</code>s, use <code>.nav-fill</code>. Notice that all horizontal space is occupied, but not every nav item has the same width.</p>
+                     <ul class="nav nav-pills mb-3 nav-fill" id="pills-tab-1" role="tablist">
+                        <li class="nav-item">
+                           <a class="nav-link active" id="pills-home-tab-fill" data-toggle="pill" href="#pills-home-fill" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="pills-profile-tab-fill" data-toggle="pill" href="#pills-profile-fill" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="pills-contact-tab-fill" data-toggle="pill" href="#pills-contact-fill" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="pills-tabContent-1">
+                        <div class="tab-pane fade show active" id="pills-home-fill" role="tabpanel" aria-labelledby="pills-home-tab-fill">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile-fill" role="tabpanel" aria-labelledby="pills-profile-tab-fill">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact-fill" role="tabpanel" aria-labelledby="pills-contact-tab-fill">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Tabs Justify Right</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <p>Right-aligned with <code>.justify-content-end</code>.</p>
+                     <ul class="nav nav-tabs justify-content-end" id="myTab-4" role="tablist">
+                        <li class="nav-item">
+                           <a class="nav-link active" id="home-tab-end" data-toggle="tab" href="#home-end" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="profile-tab-end" data-toggle="tab" href="#profile-end" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="contact-tab-end" data-toggle="tab" href="#contact-end" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="myTabContent-5">
+                        <div class="tab-pane fade show active" id="home-end" role="tabpanel" aria-labelledby="home-tab-end">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="tab-pane fade" id="profile-end" role="tabpanel" aria-labelledby="profile-tab-end">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="tab-pane fade" id="contact-end" role="tabpanel" aria-labelledby="contact-tab-end">
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-block card-stretch card-height">
-                    <div class="card-body">
-                        <div class="top-block d-flex align-items-center justify-content-between">
-                            <h5>Cost</h5>
-                            <span class="badge badge-success">Today</span>
-                        </div>
-                        <h3>$<span class="counter">33000</span></h3>
-                        <div class="d-flex align-items-center justify-content-between mt-1">
-                            <p class="mb-0">Total Revenue</p>
-                            <span class="text-success">85%</span>
-                        </div>
-                        <div class="iq-progress-bar bg-success-light mt-2">
-                            <span class="bg-success iq-progress progress-1" data-percent="85"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-block card-stretch card-height">
-                    <div class="card-body">
-                        <div class="top-block d-flex align-items-center justify-content-between">
-                            <h5>Profit</h5>
-                            <span class="badge badge-info">Weekly</span>
-                        </div>
-                        <h3>$<span class="counter">2500</span></h3>
-                        <div class="d-flex align-items-center justify-content-between mt-1">
-                            <p class="mb-0">Total Revenue</p>
-                            <span class="text-info">55%</span>
-                        </div>
-                        <div class="iq-progress-bar bg-info-light mt-2">
-                            <span class="bg-info iq-progress progress-1" data-percent="55"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-8">
-                <div class="card-transparent card-block card-stretch card-height">
-                    <div class="card-body p-0">
-                        <div class="card">
-                            <div class="card-header d-flex justify-content-between">
-                                <div class="header-title">
-                                    <h4 class="card-title">Overview Progress</h4>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <ul class="list-inline p-0 mb-0">
-                                    <li class="mb-1">
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <p class="mb-0">UX / UI Design</p>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="iq-progress-bar bg-secondary-light">
-                                                        <span class="bg-secondary iq-progress progress-1" data-percent="65"></span>
-                                                    </div>
-                                                    <span class="ml-3">65%</span>
-                                                </div>                                                                
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="iq-media-group text-sm-right">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/05.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/06.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/07.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="mb-1">
-                                        <div class="d-flex align-items-center justify-content-between row">
-                                            <div class="col-sm-3">
-                                                <p class="mb-0">Development</p>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="iq-progress-bar bg-primary-light">
-                                                        <span class="bg-primary iq-progress progress-1" data-percent="59"></span>
-                                                    </div>
-                                                    <span class="ml-3">59%</span>
-                                                </div>                                                                
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="iq-media-group text-sm-right">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/08.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/09.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/04.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="d-flex align-items-center justify-content-between row">
-                                            <div class="col-sm-3">
-                                                <p class="mb-0">Testing</p>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="iq-progress-bar bg-warning-light">
-                                                        <span class="bg-warning iq-progress progress-1" data-percent="78"></span>
-                                                    </div>
-                                                    <span class="ml-3">78%</span>
-                                                </div>                                                                
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="iq-media-group text-sm-right">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/01.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/02.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/03.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-8">
-                                                <div class="row align-items-center">
-                                                    <div class="col-md-3">
-                                                        <div id="circle-progress-21" class="circle-progress-01 circle-progress circle-progress-primary" data-min-value="0" data-max-value="100" data-value="25" data-type="percent"></div>
-                                                    </div>
-                                                    <div class="col-md-9">
-                                                        <div class="mt-3 mt-md-0">
-                                                            <h5 class="mb-1">Cloud Service Theme</h5>
-                                                            <p class="mb-0">Exclusively for cloud-based/ Startup theme.</p>
-                                                        </div>                                                        
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 text-sm-right mt-3 mt-sm-0">
-                                                <div class="iq-media-group">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/05.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/06.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <a class="btn btn-white text-primary link-shadow mt-2">High</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-8">
-                                                <div class="row align-items-center">
-                                                    <div class="col-md-3">
-                                                        <div id="circle-progress-22" class="circle-progress-01 circle-progress circle-progress-secondary" data-min-value="0" data-max-value="100" data-value="30" data-type="percent"></div>
-                                                    </div>
-                                                    <div class="col-md-9">
-                                                        <div class="mt-3 mt-md-0">
-                                                            <h5 class="mb-1">Automotive WordPress</h5>
-                                                            <p class="mb-0">Dealership-based business WordPress theme.</p>
-                                                    </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 text-sm-right mt-3 mt-sm-0">
-                                                <div class="iq-media-group">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/07.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/02.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/04.jpg" alt="">
-                                                    </a>                                                
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/08.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <a class="btn btn-white text-secondary link-shadow mt-2">Medium</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-8">
-                                                <div class="row align-items-center">
-                                                    <div class="col-md-3">
-                                                        <div id="circle-progress-23" class="circle-progress-01 circle-progress circle-progress-warning" data-min-value="0" data-max-value="100" data-value="15" data-type="percent"></div>
-                                                    </div>
-                                                    <div class="col-md-9">
-                                                        <div class="mt-3 mt-md-0">
-                                                            <h5 class="mb-1">Online Education</h5>
-                                                            <p class="mb-0">Remote students and teachers dashboard.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 text-sm-right mt-3 mt-sm-0">
-                                                <div class="iq-media-group">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/01.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/02.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/03.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <a class="btn btn-white text-warning link-shadow mt-2">Low</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="card mb-0">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-8">
-                                                <div class="row align-items-center">
-                                                    <div class="col-md-3">
-                                                        <div id="circle-progress-24" class="circle-progress-01 circle-progress circle-progress-success" data-min-value="0" data-max-value="100" data-value="40" data-type="percent"></div>
-                                                    </div>
-                                                    <div class="col-md-9">
-                                                        <div class="mt-3 mt-md-0">
-                                                            <h5 class="mb-1">Blog/Magazine Theme</h5>
-                                                            <p class="mb-0">Launch visually appealing Blog theme.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 text-sm-right mt-3 mt-sm-0">
-                                                <div class="iq-media-group">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/05.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/06.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/07.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <a class="btn btn-white text-success  link-shadow mt-2">High</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="card card-block card-stretch card-height">
-                    <div class="card-body">
-                        <div class="card border-bottom pb-2 shadow-none">
-                            <div class="card-body text-center inln-date flet-datepickr">
-                                <input type="text" id="inline-date" class="date-input basicFlatpickr d-none" readonly="readonly">
-                            </div>
-                        </div>
-                        <div class="card card-list">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <svg class="svg-icon text-secondary mr-3" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                    <div class="pl-3 border-left">
-                                        <h5 class="mb-1">Direct Development</h5>
-                                        <p class="mb-0">Unveling the design system</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-list">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <svg class="svg-icon text-primary mr-3" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
-                                        <path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path>
-                                    </svg>
-                                    <div class="pl-3 border-left">
-                                        <h5 class="mb-1">action point assigned</h5>
-                                        <p class="mb-0">Unveling the design system</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-list">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <svg class="svg-icon text-warning mr-3" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
-                                    </svg>
-                                    <div class="pl-3 border-left">
-                                        <h5 class="mb-1">Private Notes</h5>
-                                        <p class="mb-0">Unveling the design system</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-list mb-0">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <svg class="svg-icon text-success mr-3" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                                    </svg>
-                                    <div class="pl-3 border-left">
-                                        <h5 class="mb-1">Support Request</h5>
-                                        <p class="mb-0">Unveling the design system</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="card-transparent mb-0">
-                    <div class="card-header d-flex align-items-center justify-content-between p-0 pb-3">
-                        <div class="header-title">
-                            <h4 class="card-title">Current Projects</h4>
-                        </div>
-                        <div class="card-header-toolbar d-flex align-items-center">
-                            <div id="top-project-slick-arrow" class="slick-aerrow-block">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body p-0">
-                        <ul class="list-unstyled row top-projects mb-0">
-                            <li class="col-lg-4">                                    
-                                <div class="card">
-                                    <div class="card-body"> 
-                                        <h5 class="mb-3">Hotel Management App UI Kit</h5>
-                                        <p class="mb-3"><i class="las la-calendar-check mr-2"></i>02 / 02 / 2021</p>
-                                        <div class="iq-progress-bar bg-secondary-light mb-4">
-                                            <span class="bg-secondary iq-progress progress-1" data-percent="65" style="transition: width 2s ease 0s; width: 65%;"></span>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <div class="iq-media-group">
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/01.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/02.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/03.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/04.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <a href="#" class="btn bg-secondary-light">Design</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-body"> 
-                                        <h5 class="mb-3">General Improvement in pages</h5>
-                                        <p class="mb-3"><i class="las la-calendar-check mr-2"></i>02 / 02 / 2021</p>
-                                        <div class="iq-progress-bar bg-info-light mb-4">
-                                            <span class="bg-info iq-progress progress-1" data-percent="65" style="transition: width 2s ease 0s; width: 65%;"></span>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <div class="iq-media-group">
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/05.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/06.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/07.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/08.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <a href="#" class="btn bg-info-light">Testing</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-body"> 
-                                        <h5 class="mb-3">Product list view changes</h5>
-                                        <p class="mb-3"><i class="las la-calendar-check mr-2"></i>02 / 02 / 2021</p>
-                                        <div class="iq-progress-bar bg-success-light mb-4">
-                                            <span class="bg-success iq-progress progress-1" data-percent="65" style="transition: width 2s ease 0s; width: 65%;"></span>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <div class="iq-media-group">
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/03.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/04.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/05.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/06.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <a href="#" class="btn bg-success-light">SEO</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-body"> 
-                                        <h5 class="mb-3">Add Multiple theme options</h5>
-                                        <p class="mb-3"><i class="las la-calendar-check mr-2"></i>02 / 02 / 2021</p>
-                                        <div class="iq-progress-bar bg-warning-light mb-4">
-                                            <span class="bg-warning iq-progress progress-1" data-percent="65" style="transition: width 2s ease 0s; width: 65%;"></span>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <div class="iq-media-group">
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/01.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/02.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/03.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/04.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <a href="#" class="btn bg-warning-light">Development</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-body"> 
-                                        <h5 class="mb-3">Admin Panel Customization</h5>
-                                        <p class="mb-3"><i class="las la-calendar-check mr-2"></i>02 / 02 / 2021</p>
-                                        <div class="iq-progress-bar bg-primary-light mb-4">
-                                            <span class="bg-primary iq-progress progress-1" data-percent="65"></span>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <div class="iq-media-group">
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/01.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/02.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/03.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/04.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <a href="#" class="btn bg-primary-light">Content</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Page end  -->
-    </div>
+         </div>
+      </div>
       </div>
     </div>
     <!-- Wrapper End-->
@@ -1552,7 +1265,7 @@
             </div>
         </div>
     </footer>
-    <!-- Backend Bundle JavaScript -->
+        <!-- Backend Bundle JavaScript -->
     <script src="{{asset('assets/auth/js/backend-bundle.min.js')}}"></script>
      
     <!-- Table Treeview JavaScript -->
