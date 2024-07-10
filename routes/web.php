@@ -172,3 +172,55 @@ Route::get('/ui-tooltips', function () {
 Route::get('/ui-typography', function () {
     return view('dashboard.ui-elements.ui-typography');
 })-> name('Typography');
+
+Route::get('/form-checkbox', function () {
+    return view('dashboard.forms.form-checkbox');
+})-> name('Checkbox');
+
+Route::get('/form-datepicker', function () {
+    return view('dashboard.forms.form-datepicker');
+})-> name('Datepicker');
+
+Route::get('/form-file-uploader', function () {
+    return view('dashboard.forms.form-file-uploader');
+})-> name('File Uploader');
+
+Route::get('/form-input-group', function () {
+    return view('dashboard.forms.form-input-group');
+})-> name('Input Group');
+
+Route::get('/form-layout', function () {
+    return view('dashboard.forms.form-layout');
+})-> name('Layout');
+
+Route::get('/form-radio', function () {
+    return view('dashboard.forms.form-radio');
+})-> name('Radio');
+
+Route::get('/form-select', function () {
+    return view('dashboard.forms.form-select');
+})-> name('Select');
+
+Route::get('/form-switch', function () {
+    return view('dashboard.forms.form-switch');
+})-> name('Switch');
+
+Route::get('/form-textarea', function () {
+    return view('dashboard.forms.form-textarea');
+})-> name('Textarea');
+
+Route::get('/form-validation', function () {
+    return view('dashboard.forms.form-validation');
+})-> name('Validation');
+
+Route::get('/form-wizard-validate', function () {
+    return view('dashboard.forms.form-wizard-validate');
+})-> name('Wizard Validate');
+
+Route::get('/form-wizard-vertical', function () {
+    return view('dashboard.forms.form-wizard-vertical');
+})-> name('Wizard Vertical');
+
+Route::get('/form-wizard', function () {
+    return view('dashboard.forms.form-wizard');
+})-> name('Wizard');
