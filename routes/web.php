@@ -233,22 +233,26 @@ Route::get('/table-editable', function () {
     return view('dashboard.table.table-editable');
 })-> name('Table Editable');
 
+Route::get('/table-basic', function () {
+    return view('dashboard.table.table-basic');
+})-> name('Table Basic');
+
 Route::get('/table-tree', function () {
     return view('dashboard.table.table-tree');
 })-> name('Table Tree');
 
 Route::get('/pricing-1', function () {
-    return view('dashboard.princing.pricing');
+    return view('dashboard.pricing.pricing');
 })-> name('Pricing 1');
 
 Route::get('/pricing-2', function () {
-    return view('dashboard.princing.pricing-1');
+    return view('dashboard.pricing.pricing-1');
 })-> name('Pricing 2');
 
 Route::get('/pricing-3', function () {
-    return view('dashboard.princing.pricing-2');
+    return view('dashboard.pricing.pricing-2');
 })-> name('Pricing 3');
 
 Route::get('/pricing-4', function () {
-    return view('dashboard.princing.pricing-3');
+    return view('dashboard.pricing.pricing-3');
 })-> name('Pricing 4');
