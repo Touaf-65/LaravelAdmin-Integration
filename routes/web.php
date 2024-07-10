@@ -224,3 +224,31 @@ Route::get('/form-wizard-vertical', function () {
 Route::get('/form-wizard', function () {
     return view('dashboard.forms.form-wizard');
 })-> name('Wizard');
+
+Route::get('/table-data', function () {
+    return view('dashboard.table.table-data');
+})-> name('Table Data');
+
+Route::get('/table-editable', function () {
+    return view('dashboard.table.table-editable');
+})-> name('Table Editable');
+
+Route::get('/table-tree', function () {
+    return view('dashboard.table.table-tree');
+})-> name('Table Tree');
+
+Route::get('/pricing-1', function () {
+    return view('dashboard.princing.pricing');
+})-> name('Pricing 1');
+
+Route::get('/pricing-2', function () {
+    return view('dashboard.princing.pricing-1');
+})-> name('Pricing 2');
+
+Route::get('/pricing-3', function () {
+    return view('dashboard.princing.pricing-2');
+})-> name('Pricing 3');
+
+Route::get('/pricing-4', function () {
+    return view('dashboard.princing.pricing-3');
+})-> name('Pricing 4');
