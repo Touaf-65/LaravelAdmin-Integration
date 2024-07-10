@@ -310,38 +310,63 @@
                                       </a>
                                       <ul id="form" class="iq-submenu collapse" data-parent="#otherpage">
                                           <li class="">
-                                              <a href="../backend/form-layout.html">
+                                              <a href="{{route('Layout')}}">
                                                   <i class="las la-minus"></i><span class="">Form Elements</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="../backend/form-input-group.html" class="svg-icon">
+                                              <a href="{{route('Checkbox')}}" class="svg-icon">
                                                  <i class="las la-minus"></i><span class="">Form Input</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="../backend/form-validation.html" class="svg-icon">
+                                              <a href="{{route('Datepicker')}}" class="svg-icon">
                                                   <i class="las la-minus"></i><span class="">Form Validation</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="../backend/form-switch.html" class="svg-icon">
+                                              <a href="{{route('File Uploader')}}" class="svg-icon">
                                                   <i class="las la-minus"></i><span class="">Form Switch</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="../backend/form-chechbox.html" class="svg-icon">
+                                              <a href="{{route('Input Group')}}" class="svg-icon">
                                                   <i class="las la-minus"></i><span class="">Form Checkbox</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="../backend/form-radio.html" class="svg-icon">
+                                              <a href="{{route('Radio')}}" class="svg-icon">
                                                   <i class="las la-minus"></i><span class="">Form Radio</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="../backend/form-textarea.html" class="svg-icon">
+                                              <a href="{{route('Textarea')}}" class="svg-icon">
                                                   <i class="las la-minus"></i><span class="">Form Textarea</span>
+                                              </a>
+                                          </li>
+                                          <li class="">
+                                              <a href="{{route('Select')}}" class="svg-icon">
+                                                  <i class="las la-minus"></i><span class="">Form Select</span>
+                                              </a>
+                                          </li>
+                                          <li class="">
+                                              <a href="{{route('Switch')}}" class="svg-icon">
+                                                  <i class="las la-minus"></i><span class="">Form Switch</span>
+                                              </a>
+                                          </li>
+                                          <li class="">
+                                              <a href="{{route('Wizard')}}" class="svg-icon">
+                                                  <i class="las la-minus"></i><span class="">Form Wizard</span>
+                                              </a>
+                                          </li>
+                                          <li class="">
+                                              <a href="{{route('Wizard Validate')}}" class="svg-icon">
+                                                  <i class="las la-minus"></i><span class="">Form Wizard Validate</span>
+                                              </a>
+                                          </li>
+                                          <li class="">
+                                              <a href="{{route('Wizard Vertical')}}" class="svg-icon">
+                                                  <i class="las la-minus"></i><span class="">Form Wizard Vertical</span>
                                               </a>
                                           </li>
                                       </ul>
