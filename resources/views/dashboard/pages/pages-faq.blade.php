@@ -1,4 +1,5 @@
 
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,7 +8,7 @@
       <title>Webkit | Responsive Bootstrap 4 Admin Dashboard Template</title>
       
       <!-- Favicon -->
-<link rel="shortcut icon" href="{{asset('assets/auth/images/favicon.ico')}}" />
+      <link rel="shortcut icon" href="{{asset('assets/auth/images/favicon.ico')}}" />
       <link rel="stylesheet" href="{{asset('assets/auth/css/backend-plugin.min.css')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/css/backend.css?v=1.0.0')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css')}}">
@@ -122,7 +123,7 @@
                                                       <i class="las la-minus"></i><span>User Add</span>
                                                   </a>
                                               </li>
-                                              <li class="active">
+                                              <li class="">
                                                   <a href="../app/user-list.html">
                                                       <i class="las la-minus"></i><span>User List</span>
                                                   </a>
@@ -716,275 +717,193 @@
               </nav>
           </div>
       </div>      <div class="content-page">
-<div class="container-fluid">
-   <div class="row">
-      <div class="col-sm-12">
-         <div class="card">
-            <div class="card-header d-flex justify-content-between">
-               <div class="header-title">
-                  <h4 class="card-title">User List</h4>
+      <div id="faqAccordion" class="container-fluid">
+         <div class="row">
+            <div class="col-lg-6">
+               <div class="iq-accordion career-style faq-style">
+                  <div class="card iq-accordion-block">
+                     <div class="active-faq clearfix" id="headingOne">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12">
+                                 <a role="contentinfo" class="accordion-title" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 <span> It is a long established reader will be? </span> 
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                        <p class="mb-0">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+                     </div>
+                  </div>
+                  <div class="card iq-accordion-block">
+                     <div class="active-faq clearfix" id="headingTwo">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span> Distracted by the readable page whent? </span> </a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                        <p class="mb-0">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                     </div>
+                  </div>
+                  <div class="card iq-accordion-block ">
+                     <div class="active-faq clearfix" id="headingThree">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title collapsed" data-toggle="collapse"  data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span>What is user interface kit? </span> </a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                        <p class="mb-0">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                     </div>
+                  </div>
+                  <div class="card iq-accordion-block ">
+                     <div class="active-faq clearfix" id="headingFour">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                 aria-controls="collapseFour"><span> The readable content layout? </span> </a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse" id="collapseFour" aria-labelledby="headingFour" data-parent="#faqAccordion">
+                        <p class="mb-0">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                     </div>
+                  </div>
+                  <div class="card iq-accordion-block">
+                     <div class="active-faq clearfix" id="headingFive">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                 aria-controls="collapseFive"><span> The readable content of a page at its layout? </span> </a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse" id="collapseFive" aria-labelledby="headingFive" data-parent="#faqAccordion">
+                        <p class="mb-0">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                     </div>
+                  </div>
+                  <div class="card iq-accordion-block">
+                     <div class="active-faq clearfix" id="headingSix">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+                                 aria-controls="collapseSix"><span> What is user interface kit? </span> </a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse" id="collapseSix" aria-labelledby="headingSix" data-parent="#faqAccordion">
+                        <p class="mb-0">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                     </div>
+                  </div>
                </div>
             </div>
-            <div class="card-body">
-               <div class="table-responsive">
-                  <div class="row justify-content-between">
-                     <div class="col-sm-6 col-md-6">
-                        <div id="user_list_datatable_info" class="dataTables_filter">
-                           <form class="mr-3 position-relative">
-                              <div class="form-group mb-0">
-                                 <input type="search" class="form-control" id="exampleInputSearch" placeholder="Search"
-                                    aria-controls="user-list-table">
-                              </div>
-                           </form>
+            <div class="col-lg-6">
+               <div class="iq-accordion career-style faq-style">
+                  <div class="card iq-accordion-block">
+                     <div class="active-faq clearfix" id="headingSeven">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true"
+                                 aria-controls="collapseSeven"><span> It is a long established fact reader will be? </span> </a></div>
+                           </div>
                         </div>
                      </div>
-                     <div class="col-sm-6 col-md-6">
-                        <div class="user-list-files d-flex">
-                           <a class="bg-primary" href="javascript:void();">
-                              Print
-                           </a>
-                           <a class="bg-primary" href="javascript:void();">
-                              Excel
-                           </a>
-                           <a class="bg-primary" href="javascript:void();">
-                              Pdf
-                           </a>
-                        </div>
+                     <div class="accordion-details collapse" id="collapseSeven" aria-labelledby="headingSeven" data-parent="#faqAccordion">
+                        <p class="mb-0">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
                      </div>
                   </div>
-                  <table id="user-list-table" class="table table-striped dataTable mt-4" role="grid"
-                     aria-describedby="user-list-page-info">
-                     <thead>
-                        <tr class="ligth">
-                           <th>Profile</th>
-                           <th>Name</th>
-                           <th>Contact</th>
-                           <th>Email</th>
-                           <th>Country</th>
-                           <th>Status</th>
-                           <th>Company</th>
-                           <th>Join Date</th>
-                           <th style="min-width: 100px">Action</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td class="text-center"><img class="rounded img-fluid avatar-40"
-                                 src="../assets/images/user/01.jpg" alt="profile"></td>
-                           <td>Anna Sthesia</td>
-                           <td>(760) 756 7568</td>
-                           <td>annasthesia@gmail.com</td>
-                           <td>USA</td>
-                           <td><span class="badge bg-primary">Active</span></td>
-                           <td>Acme Corporation</td>
-                           <td>2019/12/01</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Add" href="#"><i class="ri-user-add-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Edit" href="#"><i class="ri-pencil-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line mr-0"></i></a>
-                              </div>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="text-center"><img class="rounded img-fluid avatar-40"
-                                 src="../assets/images/user/02.jpg" alt="profile"></td>
-                           <td>Brock Lee</td>
-                           <td>+62 5689 458 658</td>
-                           <td>brocklee@gmail.com</td>
-                           <td>Indonesia</td>
-                           <td><span class="badge bg-primary">Active</span></td>
-                           <td>Soylent Corp</td>
-                           <td>2019/12/01</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Add" href="#"><i class="ri-user-add-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Edit" href="#"><i class="ri-pencil-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line mr-0"></i></a>
-                              </div>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="text-center"><img class="rounded img-fluid avatar-40"
-                                 src="../assets/images/user/03.jpg" alt="profile"></td>
-                           <td>Dan Druff</td>
-                           <td>+55 6523 456 856</td>
-                           <td>dandruff@gmail.com</td>
-                           <td>Brazil</td>
-                           <td><span class="badge bg-warning-light">Pending</span></td>
-                           <td>Umbrella Corporation</td>
-                           <td>2019/12/01</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Add" href="#"><i class="ri-user-add-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Edit" href="#"><i class="ri-pencil-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line mr-0"></i></a>
-                              </div>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="text-center"><img class="rounded img-fluid avatar-40"
-                                 src="../assets/images/user/04.jpg" alt="profile"></td>
-                           <td>Hans Olo</td>
-                           <td>+91 2586 253 125</td>
-                           <td>hansolo@gmail.com</td>
-                           <td>India</td>
-                           <td><span class="badge bg-danger-light">Inactive</span></td>
-                           <td>Vehement Capital</td>
-                           <td>2019/12/01</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Add" href="#"><i class="ri-user-add-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Edit" href="#"><i class="ri-pencil-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line mr-0"></i></a>
-                              </div>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="text-center"><img class="rounded img-fluid avatar-40"
-                                 src="../assets/images/user/05.jpg" alt="profile"></td>
-                           <td>Lynn Guini</td>
-                           <td>+27 2563 456 589</td>
-                           <td>lynnguini@gmail.com</td>
-                           <td>Africa</td>
-                           <td><span class="badge bg-primary">Active</span></td>
-                           <td>Massive Dynamic</td>
-                           <td>2019/12/01</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Add" href="#"><i class="ri-user-add-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Edit" href="#"><i class="ri-pencil-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line mr-0"></i></a>
-                              </div>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="text-center"><img class="rounded img-fluid avatar-40"
-                                 src="../assets/images/user/06.jpg" alt="profile"></td>
-                           <td>Eric Shun</td>
-                           <td>+55 25685 256 589</td>
-                           <td>ericshun@gmail.com</td>
-                           <td>Brazil</td>
-                           <td><span class="badge bg-warning-light">Pending</span></td>
-                           <td>Globex Corporation</td>
-                           <td>2019/12/01</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Add" href="#"><i class="ri-user-add-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Edit" href="#"><i class="ri-pencil-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line mr-0"></i></a>
-                              </div>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="text-center"><img class="rounded img-fluid avatar-40"
-                                 src="../assets/images/user/07.jpg" alt="profile"></td>
-                           <td>aaronottix</td>
-                           <td>(760) 765 2658</td>
-                           <td>budwiser@ymail.com</td>
-                           <td>USA</td>
-                           <td><span class="badge bg-info-light">Hold</span></td>
-                           <td>Acme Corporation</td>
-                           <td>2019/12/01</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Add" href="#"><i class="ri-user-add-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Edit" href="#"><i class="ri-pencil-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line mr-0"></i></a>
-                              </div>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="text-center"><img class="rounded img-fluid avatar-40"
-                                 src="../assets/images/user/08.jpg" alt="profile"></td>
-                           <td>Marge Arita</td>
-                           <td>+27 5625 456 589</td>
-                           <td>margearita@gmail.com</td>
-                           <td>Africa</td>
-                           <td><span class="badge bg-success-light">Complite</span></td>
-                           <td>Vehement Capital</td>
-                           <td>2019/12/01</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Add" href="#"><i class="ri-user-add-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Edit" href="#"><i class="ri-pencil-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line mr-0"></i></a>
-                              </div>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td class="text-center"><img class="rounded img-fluid avatar-40"
-                                 src="../assets/images/user/09.jpg" alt="profile"></td>
-                           <td>Bill Dabear</td>
-                           <td>+55 2563 456 589</td>
-                           <td>billdabear@gmail.com</td>
-                           <td>Brazil</td>
-                           <td><span class="badge bg-primary">active</span></td>
-                           <td>Massive Dynamic</td>
-                           <td>2019/12/01</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Add" href="#"><i class="ri-user-add-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Edit" href="#"><i class="ri-pencil-line mr-0"></i></a>
-                                 <a class="btn btn-sm bg-primary" data-toggle="tooltip" data-placement="top" title=""
-                                    data-original-title="Delete" href="#"><i class="ri-delete-bin-line mr-0"></i></a>
-                              </div>
-                           </td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
-               <div class="row justify-content-between mt-3">
-                  <div id="user-list-page-info" class="col-md-6">
-                     <span>Showing 1 to 5 of 5 entries</span>
+                  <div class="card iq-accordion-block">
+                     <div class="active-faq clearfix" id="headingEight">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false"
+                                 aria-controls="collapseEight"><span> Distracted by readable content of a page? </span> </a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse" id="collapseEight" aria-labelledby="headingEight" data-parent="#faqAccordion">
+                        <p class="mb-0">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                     </div>
                   </div>
-                  <div class="col-md-6">
-                     <nav aria-label="Page navigation example">
-                        <ul class="pagination justify-content-end mb-0">
-                           <li class="page-item disabled">
-                              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                           </li>
-                           <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                           <li class="page-item"><a class="page-link" href="#">2</a></li>
-                           <li class="page-item"><a class="page-link" href="#">3</a></li>
-                           <li class="page-item">
-                              <a class="page-link" href="#">Next</a>
-                           </li>
-                        </ul>
-                     </nav>
+                  <div class="card iq-accordion-block">
+                     <div class="active-faq clearfix" id="headingNine">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title collapsed" data-toggle="collapse"
+                                 data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><span> Distracted by
+                                 readable content of a page? </span> </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse" id="collapseNine" aria-labelledby="headingNine"
+                        data-parent="#faqAccordion">
+                        <p class="mb-0">It has survived not only five centuries, but also the leap into electronic typesetting. Neque
+                           porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="card iq-accordion-block">
+                     <div class="active-faq clearfix" id="headingTen">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false"
+                                 aria-controls="collapseTen"><span> The readable content and survived? </span> </a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse" id="collapseTen" aria-labelledby="headingTen" data-parent="#faqAccordion">
+                        <p class="mb-0">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                     </div>
+                  </div>
+                  <div class="card iq-accordion-block">
+                     <div class="active-faq clearfix" id="headingEleven">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false"
+                                 aria-controls="collapseEleven"><span> The readable content of a page layout? </span> </a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse" id="collapseEleven" aria-labelledby="headingEleven" data-parent="#faqAccordion">
+                        <p class="mb-0">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                     </div>
+                  </div>
+                  <div class="card iq-accordion-block">
+                     <div class="active-faq clearfix" id="headingTwelve">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false"
+                                 aria-controls="collapseTwelve"><span> What is user interface kit? </span> </a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse" id="collapseTwelve" aria-labelledby="headingTwelve" data-parent="#faqAccordion">
+                        <p class="mb-0">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                     </div>
+                  </div>
+                  <div class="card iq-accordion-block">
+                     <div class="active-faq clearfix" id="headingThrteen">
+                        <div class="container-fluid">
+                           <div class="row">
+                              <div class="col-sm-12"><a role="contentinfo" class="accordion-title collapsed" data-toggle="collapse" data-target="#collapseThrteen" aria-expanded="false"
+                                 aria-controls="collapseThrteen"><span> The content of a page abd layout? </span> </a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-details collapse" id="collapseThrteen" aria-labelledby="headingThrteen" data-parent="#faqAccordion">
+                        <p class="mb-0">It has survived not only five centuries, but also the leap into electronic typesetting. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-   </div>
-</div>
       </div>
     </div>
     <!-- Wrapper End-->
@@ -1265,7 +1184,7 @@
             </div>
         </div>
     </footer>
-    <!-- Backend Bundle JavaScript -->
+<!-- Backend Bundle JavaScript -->
     <script src="{{asset('assets/auth/js/backend-bundle.min.js')}}"></script>
      
     <!-- Table Treeview JavaScript -->
@@ -1283,5 +1202,6 @@
     <script src="{{asset('assets/auth/js/app.js')}}"></script>
     
     <script src="{{asset('assets/auth/vendor/moment.min.js')}}"></script>
+    
   </body>
 </html>

@@ -8,7 +8,7 @@
       <title>Webkit | Responsive Bootstrap 4 Admin Dashboard Template</title>
       
       <!-- Favicon -->
-<link rel="shortcut icon" href="{{asset('assets/auth/images/favicon.ico')}}" />
+      <link rel="shortcut icon" href="{{asset('assets/auth/images/favicon.ico')}}" />
       <link rel="stylesheet" href="{{asset('assets/auth/css/backend-plugin.min.css')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/css/backend.css?v=1.0.0')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css')}}">
@@ -17,7 +17,7 @@
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/tui-calendar/tui-calendar/dist/tui-calendar.css')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/tui-calendar/tui-date-picker/dist/tui-date-picker.css')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/tui-calendar/tui-time-picker/dist/tui-time-picker.css')}}">  </head>
-  <body class="  ">
+  <body class=" color-light ">
     <!-- loader Start -->
     <div id="loading">
           <div id="loading-center">
@@ -717,103 +717,153 @@
               </nav>
           </div>
       </div>      <div class="content-page">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-header d-flex justify-content-between">
-                        <div class="header-title">
-                            <h4 class="card-title">Account Setting</h4>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-12">
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Remixicon Icon</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <p>Use Class <code>&lt;i class="ri-4k-fill"&gt;&lt;/i&gt;</code></p>
+                     <div class="row mt-3">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-4k-fill"></i>4k Fill</a>
                         </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="acc-edit">
-                            <form>
-                                <div class="form-group">
-                                    <label for="uname">User Name:</label>
-                                    <input type="text" class="form-control" id="uname" value="Barry@01">
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email Id:</label>
-                                    <input type="email" class="form-control" id="email" value="Barryjohn@gmail.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="altemail">Alternate Email:</label>
-                                    <input type="email" class="form-control" id="altemail" value="designtheme@gmail.com">
-                                </div>
-                                <div class="form-group">
-                                    <label class="d-block">Language Known:</label>
-                                    <div class="custom-control custom-checkbox custom-control-inline">
-                                        <input type="checkbox" class="custom-control-input" id="english" checked="">
-                                        <label class="custom-control-label" for="english">English</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox custom-control-inline">
-                                        <input type="checkbox" class="custom-control-input" id="french" checked="">
-                                        <label class="custom-control-label" for="french">French</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox custom-control-inline">
-                                        <input type="checkbox" class="custom-control-input" id="hindi">
-                                        <label class="custom-control-label" for="hindi">Hindi</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox custom-control-inline">
-                                        <input type="checkbox" class="custom-control-input" id="spanish" checked="">
-                                        <label class="custom-control-label" for="spanish">Spanish</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox custom-control-inline">
-                                        <input type="checkbox" class="custom-control-input" id="arabic">
-                                        <label class="custom-control-label" for="arabic">Arabic</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox custom-control-inline">
-                                        <input type="checkbox" class="custom-control-input" id="italian">
-                                        <label class="custom-control-label" for="italian">Italian</label>
-                                    </div>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                                <button type="reset" class="btn iq-bg-danger">Cancel</button>
-                            </form>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-4k-line"></i>4k line</a>
                         </div>
-                    </div>
-                </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-account-box-fill"></i>Account Fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-account-pin-box-line"></i>account-pin-box</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-award-line"></i>award-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-award-fill"></i>award-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-bookmark-line"></i>bookmark-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-bookmark-fill"></i>bookmark-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-calculator-line"></i>calculator-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-calculator-fill"></i>calculator-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-calendar-line"></i>calendar-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-calendar-fill"></i>calendar-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-reply-line"></i>reply-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-reply-fill"></i>reply-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-send-plane-line"></i>send-plane-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-send-plane-fill"></i>send-plane-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-computer-line"></i>computer-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-computer-fill"></i>computer-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-cellphone-line"></i>cellphone-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-cellphone-fill"></i>cellphone-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-phone-line"></i>phone-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-phone-fill"></i>phone-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-tablet-line"></i>tablet-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-tablet-fill"></i>tablet-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-device-line"></i>device-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-device-fill"></i>device-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-battery-line"></i>battery-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-battery-fill"></i>battery-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-battery-low-line"></i>battery-low-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-battery-low-fill"></i>battery-low-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-file-line"></i>file-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-file-fill"></i>file-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-book-open-line"></i>book-open-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-book-open-fill"></i>book-open-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-lightbulb-line"></i>lightbulb-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-lightbulb-fill"></i>lightbulb-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-map-pin-line"></i>map-pin-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-map-pin-fill"></i>map-pin-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-drop-line"></i>drop-line</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-drop-fill"></i>drop-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-drop-fill"></i>drop-fill</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                           <a class="iq-icons-list" href="#"><i class="ri-drop-fill"></i>drop-fill</a>
+                        </div>
+                        <div class="col-sm-12 text-center mt-3">
+                           <a href="https://remixicon.com/" target="blank" class="btn btn-primary">View All Icon</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-header d-flex justify-content-between">
-                        <div class="header-title">
-                            <h4 class="card-title">Social Media</h4>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="acc-edit">
-                            <form>
-                                <div class="form-group">
-                                    <label for="facebook">Facebook:</label>
-                                    <input type="text" class="form-control" id="facebook" value="www.facebook.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="twitter">Twitter:</label>
-                                    <input type="text" class="form-control" id="twitter" value="www.twitter.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="google">Google +:</label>
-                                    <input type="text" class="form-control" id="google" value="www.google.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="instagram">Instagram:</label>
-                                    <input type="text" class="form-control" id="instagram" value="www.instagram.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="youtube">You Tube:</label>
-                                    <input type="text" class="form-control" id="youtube" value="www.youtube.com">
-                                </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                                <button type="reset" class="btn iq-bg-danger">Cancel</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+         </div>
+      </div>
       </div>
     </div>
     <!-- Wrapper End-->
@@ -1094,7 +1144,7 @@
             </div>
         </div>
     </footer>
-    <!-- Backend Bundle JavaScript -->
+        <!-- Backend Bundle JavaScript -->
     <script src="{{asset('assets/auth/js/backend-bundle.min.js')}}"></script>
      
     <!-- Table Treeview JavaScript -->
@@ -1112,5 +1162,7 @@
     <script src="{{asset('assets/auth/js/app.js')}}"></script>
     
     <script src="{{asset('assets/auth/vendor/moment.min.js')}}"></script>
+    
+    <script src="../assets/vendor/moment.min.js"></script>
   </body>
 </html>

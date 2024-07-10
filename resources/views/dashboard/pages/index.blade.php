@@ -369,6 +369,11 @@
                                                   <i class="las la-minus"></i><span class="">Form Wizard Vertical</span>
                                               </a>
                                           </li>
+                                          <li class="">
+                                              <a href="{{route('Quill')}}" class="svg-icon">
+                                                  <i class="las la-minus"></i><span class="">Form Quill</span>
+                                              </a>
+                                          </li>
                                       </ul>
                                   </li>
                                   <li class=" ">
@@ -489,6 +494,30 @@
                                             </li>
                                     </ul>
                                 </li>
+                                <li class="">
+                                    <a href="{{route('Remixicon')}}" class="svg-icon">
+                                        <svg class="svg-icon" id="p-dash016" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+                                        </svg>
+                                        <span class="ml-4">Icon</span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="{{route('Subscribers')}}" class="svg-icon">
+                                        <svg class="svg-icon" id="p-dash016" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+                                        </svg>
+                                        <span class="ml-4">Subscribers</span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="{{route('FAQ')}}" class="svg-icon">
+                                        <svg class="svg-icon" id="p-dash016" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+                                        </svg>
+                                        <span class="ml-4">FAQ</span>
+                                    </a>
+                                </li>
                                   <li class="">
                                       <a href="{{route('Timeline')}}" class="svg-icon">
                                           <svg class="svg-icon" id="p-dash016" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -526,6 +555,14 @@
                                                   </a>
                                               </li>
                                       </ul>
+                                  </li>
+                                  <li class="">
+                                    <a href="{{route('Coming Soon')}}">
+                                        <svg class="svg-icon" id="p-dash18" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+                                        </svg>
+                                        <span class="ml-4">Comming Soon</span>
+                                    </a>
                                   </li>
                                   <li class="">
                                           <a href="{{route('Blank Page')}}">

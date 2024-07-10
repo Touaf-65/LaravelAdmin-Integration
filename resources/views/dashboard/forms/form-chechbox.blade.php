@@ -7,7 +7,7 @@
       <title>Webkit | Responsive Bootstrap 4 Admin Dashboard Template</title>
       
       <!-- Favicon -->
-<link rel="shortcut icon" href="{{asset('assets/auth/images/favicon.ico')}}" />
+      <link rel="shortcut icon" href="{{asset('assets/auth/images/favicon.ico')}}" />
       <link rel="stylesheet" href="{{asset('assets/auth/css/backend-plugin.min.css')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/css/backend.css?v=1.0.0')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css')}}">

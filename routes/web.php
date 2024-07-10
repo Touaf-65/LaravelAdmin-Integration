@@ -189,6 +189,10 @@ Route::get('/ui-typography', function () {
     return view('dashboard.ui-elements.ui-typography');
 })-> name('Typography');
 
+Route::get('/remixicon', function () {
+    return view('dashboard.icon.icon-remixicon');
+})-> name('Remixicon');
+
 Route::get('/form-checkbox', function () {
     return view('dashboard.forms.form-checkbox');
 })-> name('Checkbox');
@@ -241,6 +245,10 @@ Route::get('/form-wizard', function () {
     return view('dashboard.forms.form-wizard');
 })-> name('Wizard');
 
+Route::get('/form-quill', function () {
+    return view('dashboard.forms.form-quill');
+})-> name('Quill');
+
 Route::get('/table-data', function () {
     return view('dashboard.table.table-data');
 })-> name('Table Data');
@@ -292,6 +300,18 @@ Route::get('/error500', function () {
 Route::get('/blank-page', function () {
     return view('dashboard.pages.pages-blank-page');
 })-> name('Blank Page');
+
+Route::get('/comingsoon', function () {
+    return view('dashboard.pages.pages-comingsoon');
+})-> name('Coming Soon');
+
+Route::get('/faq', function () {
+    return view('dashboard.pages.pages-faq');
+})-> name('FAQ');
+
+Route::get('/suscribers', function () {
+    return view('dashboard.pages.pages-subscribers');
+})-> name('Subscribers');
 
 Route::get('/in-maintenance', function () {
     return view('dashboard.maintenance.pages-maintenance');
