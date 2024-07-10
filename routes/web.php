@@ -272,3 +272,7 @@ Route::get('/error404', function () {
 Route::get('/error500', function () {
     return view('dashboard.error.pages-error-500');
 })-> name('Error 500');
+
+Route::get('/blank-page', function () {
+    return view('dashboard.pages.pages-blank-page');
+})-> name('Blank Page');
