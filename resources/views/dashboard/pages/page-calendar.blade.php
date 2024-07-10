@@ -7,7 +7,7 @@
       <title>Webkit | Responsive Bootstrap 4 Admin Dashboard Template</title>
       
       <!-- Favicon -->
-            <link rel="shortcut icon" href="{{asset('assets/auth/images/favicon.ico')}}" />
+      <link rel="shortcut icon" href="{{asset('assets/auth/images/favicon.ico')}}" />
       <link rel="stylesheet" href="{{asset('assets/auth/css/backend-plugin.min.css')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/css/backend.css?v=1.0.0')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css')}}">
@@ -15,7 +15,7 @@
       
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/tui-calendar/tui-calendar/dist/tui-calendar.css')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/tui-calendar/tui-date-picker/dist/tui-date-picker.css')}}">
-      <link rel="stylesheet" href="{{asset('assets/auth/vendor/tui-calendar/tui-time-picker/dist/tui-time-picker.css')}}">  </head>
+      <link rel="stylesheet" href="{{asset('assets/auth/vendor/tui-calendar/tui-time-picker/dist/tui-time-picker.css')}}">   </head>
   <body class="  ">
     <!-- loader Start -->
     <div id="loading">
@@ -1088,28 +1088,30 @@
             </div>
         </div>
     </footer>
-    <!-- Backend Bundle JavaScript -->
-    <script src="{{asset('assets/auth/js/backend-bundle.min.js')}}"></script>
+<!-- Backend Bundle JavaScript -->
+<script src="{{asset('assets/auth/js/backend-bundle.min.js')}}"></script>
      
-    <!-- Table Treeview JavaScript -->
-    <script src="{{asset('assets/auth/js/table-treeview.js')}}"></script>
-    
-    <!-- Chart Custom JavaScript -->
-    <script src="{{asset('assets/auth/js/customizer.js')}}"></script>
-    
-    <!-- Chart Custom JavaScript -->
-    <script async src="{{asset('assets/auth/js/chart-custom.js')}}"></script>
-    <!-- Chart Custom JavaScript -->
-    <script async src="{{asset('assets/auth/js/slider.js')}}"></script>
-    
-    <!-- app JavaScript -->
-    <script src="{{asset('assets/auth/js/app.js')}}"></script>
+<!-- Table Treeview JavaScript -->
+<script src="{{asset('assets/auth/js/table-treeview.js')}}"></script>
+
+<!-- Chart Custom JavaScript -->
+<script src="{{asset('assets/auth/js/customizer.js')}}"></script>
+
+<!-- Chart Custom JavaScript -->
+<script async src="{{asset('assets/auth/js/chart-custom.js')}}"></script>
+<!-- Chart Custom JavaScript -->
+<script async src="{{asset('assets/auth/js/slider.js')}}"></script>
+
+<!-- app JavaScript -->
+<script src="{{asset('assets/auth/js/app.js')}}"></script>
+
+<script src="{{asset('assets/auth/vendor/moment.min.js')}}"></script>
     
     <script src="{{asset('assets/auth/vendor/moment.min.js')}}"></script>
-<script src="../assets/vendor/tui-calendar/tui-code-snippet/dist/tui-code-snippet.js"></script>
-<script src="../assets/vendor/tui-calendar/tui-time-picker/dist/tui-time-picker.min.js"></script>
-<script src="../assets/vendor/tui-calendar/tui-date-picker/dist/tui-date-picker.min.js"></script>
-<script src="../assets/vendor/tui-calendar/tui-calendar/dist/tui-calendar.min.js"></script>
-<script src="../assets/js/calendar.js"></script>
+<script src="{{asset('assets/auth/vendor/tui-calendar/tui-code-snippet/dist/tui-code-snippet.js')}}"></script>
+<script src="{{asset('assets/auth/vendor/tui-calendar/tui-time-picker/dist/tui-time-picker.min.js')}}"></script>
+<script src="{{asset('assets/auth/vendor/tui-calendar/tui-date-picker/dist/tui-date-picker.min.js')}}"></script>
+<script src="{{asset('assets/auth/vendor/tui-calendar/tui-calendar/dist/tui-calendar.min.js')}}"></script>
+<script src="{{asset('assets/auth/js/calendar.js')}}"></script>
   </body>
 </html>
