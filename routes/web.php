@@ -260,3 +260,7 @@ Route::get('/pricing-4', function () {
 Route::get('/timeline', function () {
     return view('dashboard.timeline.timeline');
 })-> name('Timeline');
+
+Route::get('/invoice', function () {
+    return view('dashboard.invoice.pages-invoice');
+})-> name('Invoice');
