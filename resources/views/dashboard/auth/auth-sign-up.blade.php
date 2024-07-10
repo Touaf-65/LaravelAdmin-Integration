@@ -86,13 +86,13 @@
                                     </div>
                                     <button type="submit" class="btn btn-white">Sign Up</button>
                                     <p class="mt-3">
-                                       Already have an Account <a href="auth-sign-in.html" class="text-white text-underline">Sign In</a>
+                                       Already have an Account <a href="{{route('Sign In')}}" class="text-white text-underline">Sign In</a>
                                     </p>
                                  </form>
                               </div>
                            </div>
                            <div class="col-lg-6 content-right">
-                              <img src="../assets/images/login/01.png" class="img-fluid image-right" alt="">
+                              <img src="{{asset('assets/auth/images/login/01.png')}}" class="img-fluid image-right" alt="">
                            </div>
                         </div>
                      </div>

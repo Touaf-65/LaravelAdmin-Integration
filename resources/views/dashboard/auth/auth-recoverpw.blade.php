@@ -49,13 +49,13 @@
                                        </div>
                                     </div>
                                     <div class="d-inline-block w-100">
-                                       <a href="../backend/auth-confirm-mail.html" class="btn btn-white mt-3">Reset</a>
+                                       <a href="{{route('Recover Password')}}" class="btn btn-white mt-3">Reset</a>
                                     </div>
                                  </form>
                               </div>
                            </div>
                            <div class="col-lg-6 content-right">
-                              <img src="../assets/images/login/01.png" class="img-fluid image-right" alt="">
+                              <img src="{{asset('assets/auth/images/login/01.png')}}" class="img-fluid image-right" alt="">
                            </div>
                         </div>
                      </div>

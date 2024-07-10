@@ -60,7 +60,7 @@
                                           </div>
                                        </div>
                                        <div class="col-lg-6">
-                                          <a href="auth-recoverpw.html" class="text-white float-right">Forgot Password?</a>
+                                          <a href="{{route('Recover Password')}}" class="text-white float-right">Forgot Password?</a>
                                        </div>
                                     </div>
                                     <button type="submit" class="btn btn-white">
@@ -73,7 +73,7 @@
                               </div>
                            </div>
                            <div class="col-lg-6 content-right">
-                              <img src="../assets/images/login/01.png" class="img-fluid image-right" alt="">
+                              <img src="{{asset('assets/auth/images/login/01.png')}}" class="img-fluid image-right" alt="">
                            </div>
                         </div>
                      </div>

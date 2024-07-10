@@ -32,3 +32,7 @@ Route::get('/recover-password', function () {
 Route::get('/confirm-mail', function () {
     return view('dashboard.auth.auth-confirm-mail');
 })-> name('Confirm Mail');
+
+Route::get('/lock-screen', function () {
+    return view('dashboard.auth.auth-lock-screen');
+})-> name('Lock Screen');
