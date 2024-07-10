@@ -256,3 +256,7 @@ Route::get('/pricing-3', function () {
 Route::get('/pricing-4', function () {
     return view('dashboard.pricing.pricing-3');
 })-> name('Pricing 4');
+
+Route::get('/timeline', function () {
+    return view('dashboard.timeline.timeline');
+})-> name('Timeline');
