@@ -264,3 +264,11 @@ Route::get('/timeline', function () {
 Route::get('/invoice', function () {
     return view('dashboard.invoice.pages-invoice');
 })-> name('Invoice');
+
+Route::get('/error404', function () {
+    return view('dashboard.error.pages-error');
+})-> name('Error 404');
+
+Route::get('/error500', function () {
+    return view('dashboard.error.pages-error-500');
+})-> name('Error 500');

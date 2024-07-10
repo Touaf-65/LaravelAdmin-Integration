@@ -462,12 +462,12 @@
                                       </a>
                                       <ul id="pages-error" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="../backend/pages-error.html">
+                                                  <a href="{{route('Error 404')}}">
                                                       <i class="las la-minus"></i><span>Error 404</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="../backend/pages-error-500.html">
+                                                  <a href="{{route('Error 500')}}">
                                                       <i class="las la-minus"></i><span>Error 500</span>
                                                   </a>
                                               </li>
