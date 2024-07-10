@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/sign-in', function () {
+    return view('dashboard.auth.auth-sign-in');
+})-> name('Sign In');
+
+Route::get('/sign-up', function () {
+    return view('dashboard.auth.auth-sign-up');
+})-> name('Sign Up');
+
+Route::get('/recover-password', function () {
+    return view('dashboard.auth.auth-recoverpw');
+})-> name('Recover Password');
+
+Route::get('/confirm-mail', function () {
+    return view('dashboard.auth.auth-confirm-mail');
+})-> name('Confirm Mail');
