@@ -382,18 +382,23 @@
                                       </a>
                                       <ul id="table" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="../backend/tables-basic.html">
+                                                  <a href="{{route('Table Basic')}}">
                                                       <i class="las la-minus"></i><span>Basic Tables</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="../backend/table-data.html">
+                                                  <a href="{{route('Table Data')}}">
                                                       <i class="las la-minus"></i><span>Data Table</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="../backend/table-tree.html">
+                                                  <a href="{{route('Table Tree')}}">
                                                       <i class="las la-minus"></i><span>Table Tree</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="{{route('Table Editable')}}">
+                                                      <i class="las la-minus"></i><span>Editable Table</span>
                                                   </a>
                                               </li>
                                       </ul>
@@ -409,13 +414,23 @@
                                       </a>
                                       <ul id="pricing" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="../backend/pricing.html">
+                                                  <a href="{{route('Pricing 1')}}">
                                                       <i class="las la-minus"></i><span>Pricing 1</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="../backend/pricing-2.html">
+                                                  <a href="{{route('Pricing 2')}}">
                                                       <i class="las la-minus"></i><span>Pricing 2</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="{{route('Pricing 3')}}">
+                                                      <i class="las la-minus"></i><span>Pricing 3</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="{{route('Pricing 4')}}">
+                                                      <i class="las la-minus"></i><span>Pricing 4</span>
                                                   </a>
                                               </li>
                                       </ul>
