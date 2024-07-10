@@ -17,7 +17,7 @@
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/tui-calendar/tui-calendar/dist/tui-calendar.css')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/tui-calendar/tui-date-picker/dist/tui-date-picker.css')}}">
       <link rel="stylesheet" href="{{asset('assets/auth/vendor/tui-calendar/tui-time-picker/dist/tui-time-picker.css')}}">  </head>
-  <body class="  ">
+  <body class=" color-light ">
     <!-- loader Start -->
     <div id="loading">
           <div id="loading-center">
@@ -40,8 +40,8 @@
           <div class="data-scrollbar" data-scroll="1">
               <nav class="iq-sidebar-menu">
                   <ul id="iq-sidebar-toggle" class="iq-menu">
-                      <li class="active">
-                          <a href="{{route('Dashboard')}}" class="svg-icon">                        
+                      <li class="">
+                          <a href="../backend/index.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                                   <polyline points="9 22 9 12 15 12 15 22"></polyline>
@@ -50,7 +50,7 @@
                           </a>
                       </li>
                       <li class="">
-                          <a href="{{route('Projects')}}" class="svg-icon">                        
+                          <a href="../backend/page-project.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <polyline points="6 9 6 2 18 2 18 9"></polyline>
                                   <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
@@ -60,7 +60,7 @@
                           </a>
                       </li>
                       <li class="">
-                          <a href="{{route('Tasks')}}" class="svg-icon">                        
+                          <a href="../backend/page-task.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
                                   <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
@@ -69,7 +69,7 @@
                           </a>
                       </li>
                       <li class="">
-                          <a href="{{route('Employees')}}" class="svg-icon">                        
+                          <a href="../backend/page-employee.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle>
                               </svg>
@@ -77,7 +77,7 @@
                           </a>
                       </li>
                       <li class="">
-                          <a href="{{route('Desk')}}" class="svg-icon">                        
+                          <a href="../backend/page-desk.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
                                   <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line>
@@ -86,7 +86,7 @@
                           </a>
                       </li>
                       <li class="">
-                          <a href="{{route('Calendar')}}" class="svg-icon">                        
+                          <a href="../backend/page-calender.html" class="svg-icon">                        
                               <svg class="svg-icon" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
                               </svg>
@@ -114,17 +114,17 @@
                                       </a>
                                       <ul id="user" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="{{route('User Profile')}}">
+                                                  <a href="../app/user-profile.html">
                                                       <i class="las la-minus"></i><span>User Profile</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Add User')}}">
+                                                  <a href="../app/user-add.html">
                                                       <i class="las la-minus"></i><span>User Add</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('User List')}}">
+                                                  <a href="../app/user-list.html">
                                                       <i class="las la-minus"></i><span>User List</span>
                                                   </a>
                                               </li>
@@ -141,122 +141,122 @@
                                       </a>
                                       <ul id="ui" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="{{route('Avatars')}}">
+                                                  <a href="../backend/ui-avatars.html">
                                                       <i class="las la-minus"></i><span>Avatars</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Alerts')}}">
+                                                  <a href="../backend/ui-alerts.html">
                                                       <i class="las la-minus"></i><span>Alerts</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Badges')}}">
+                                                  <a href="../backend/ui-badges.html">
                                                       <i class="las la-minus"></i><span>Badges</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Breadcrumb')}}">
+                                                  <a href="../backend/ui-breadcrumb.html">
                                                       <i class="las la-minus"></i><span>Breadcrumb</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Buttons')}}">
+                                                  <a href="../backend/ui-buttons.html">
                                                       <i class="las la-minus"></i><span>Buttons</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Buttons Group')}}">
+                                                  <a href="../backend/ui-buttons-group.html">
                                                       <i class="las la-minus"></i><span>Buttons Group</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Box Shadow')}}">
+                                                  <a href="../backend/ui-boxshadow.html">
                                                       <i class="las la-minus"></i><span>Box Shadow</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Colors')}}">
+                                                  <a href="../backend/ui-colors.html">
                                                       <i class="las la-minus"></i><span>Colors</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Cards')}}">
+                                                  <a href="../backend/ui-cards.html">
                                                       <i class="las la-minus"></i><span>Cards</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Carousel')}}">
+                                                  <a href="../backend/ui-carousel.html">
                                                       <i class="las la-minus"></i><span>Carousel</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Grid')}}">
+                                                  <a href="../backend/ui-grid.html">
                                                       <i class="las la-minus"></i><span>Grid</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Helper Classes')}}">
+                                                  <a href="../backend/ui-helper-classes.html">
                                                       <i class="las la-minus"></i><span>Helper classes</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Images')}}">
+                                                  <a href="../backend/ui-images.html">
                                                       <i class="las la-minus"></i><span>Images</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('List Group')}}">
-                                                      <i class="las la-minus"></i><span>List Group</span>
+                                                  <a href="../backend/ui-list-group.html">
+                                                      <i class="las la-minus"></i><span>list Group</span>
                                                   </a>
                                               </li>
                                               <li  class="">
-                                                  <a href="{{route('Media')}}">
+                                                  <a href="../backend/ui-media-object.html">
                                                       <i class="las la-minus"></i><span>Media</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Modal')}}">
+                                                  <a href="../backend/ui-modal.html">
                                                       <i class="las la-minus"></i><span>Modal</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Notifications')}}">
+                                                  <a href="../backend/ui-notifications.html">
                                                       <i class="las la-minus"></i><span>Notifications</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Pagination')}}">
+                                                  <a href="../backend/ui-pagination.html">
                                                       <i class="las la-minus"></i><span>Pagination</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Popovers')}}">
+                                                  <a href="../backend/ui-popovers.html">
                                                       <i class="las la-minus"></i><span>Popovers</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Progressbars')}}">
+                                                  <a href="../backend/ui-progressbars.html">
                                                       <i class="las la-minus"></i><span>Progressbars</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Typography')}}">
+                                                  <a href="../backend/ui-typography.html">
                                                       <i class="las la-minus"></i><span>Typography</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Tabs')}}">
+                                                  <a href="../backend/ui-tabs.html">
                                                       <i class="las la-minus"></i><span>Tabs</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Tooltips')}}">
+                                                  <a href="../backend/ui-tooltips.html">
                                                       <i class="las la-minus"></i><span>Tooltips</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Video')}}">
+                                                  <a href="../backend/ui-embed-video.html">
                                                       <i class="las la-minus"></i><span>Video</span>
                                                   </a>
                                               </li>
@@ -273,27 +273,27 @@
                                       </a>
                                       <ul id="auth" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="{{route('Sign In')}}">
+                                                  <a href="../backend/auth-sign-in.html">
                                                       <i class="las la-minus"></i><span>Login</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Sign Up')}}">
+                                                  <a href="../backend/auth-sign-up.html">
                                                       <i class="las la-minus"></i><span>Register</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Recover Password')}}">
+                                                  <a href="../backend/auth-recoverpw.html">
                                                       <i class="las la-minus"></i><span>Recover Password</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Confirm Mail')}}">
+                                                  <a href="../backend/auth-confirm-mail.html">
                                                       <i class="las la-minus"></i><span>Confirm Mail</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Lock Screen')}}">
+                                                  <a href="../backend/auth-lock-screen.html">
                                                       <i class="las la-minus"></i><span>Lock Screen</span>
                                                   </a>
                                               </li>
@@ -310,63 +310,38 @@
                                       </a>
                                       <ul id="form" class="iq-submenu collapse" data-parent="#otherpage">
                                           <li class="">
-                                              <a href="{{route('Layout')}}">
+                                              <a href="../backend/form-layout.html">
                                                   <i class="las la-minus"></i><span class="">Form Elements</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="{{route('Checkbox')}}" class="svg-icon">
+                                              <a href="../backend/form-input-group.html" class="svg-icon">
                                                  <i class="las la-minus"></i><span class="">Form Input</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="{{route('Datepicker')}}" class="svg-icon">
+                                              <a href="../backend/form-validation.html" class="svg-icon">
                                                   <i class="las la-minus"></i><span class="">Form Validation</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="{{route('File Uploader')}}" class="svg-icon">
+                                              <a href="../backend/form-switch.html" class="svg-icon">
                                                   <i class="las la-minus"></i><span class="">Form Switch</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="{{route('Input Group')}}" class="svg-icon">
+                                              <a href="../backend/form-chechbox.html" class="svg-icon">
                                                   <i class="las la-minus"></i><span class="">Form Checkbox</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="{{route('Radio')}}" class="svg-icon">
+                                              <a href="../backend/form-radio.html" class="svg-icon">
                                                   <i class="las la-minus"></i><span class="">Form Radio</span>
                                               </a>
                                           </li>
                                           <li class="">
-                                              <a href="{{route('Textarea')}}" class="svg-icon">
+                                              <a href="../backend/form-textarea.html" class="svg-icon">
                                                   <i class="las la-minus"></i><span class="">Form Textarea</span>
-                                              </a>
-                                          </li>
-                                          <li class="">
-                                              <a href="{{route('Select')}}" class="svg-icon">
-                                                  <i class="las la-minus"></i><span class="">Form Select</span>
-                                              </a>
-                                          </li>
-                                          <li class="">
-                                              <a href="{{route('Switch')}}" class="svg-icon">
-                                                  <i class="las la-minus"></i><span class="">Form Switch</span>
-                                              </a>
-                                          </li>
-                                          <li class="">
-                                              <a href="{{route('Wizard')}}" class="svg-icon">
-                                                  <i class="las la-minus"></i><span class="">Form Wizard</span>
-                                              </a>
-                                          </li>
-                                          <li class="">
-                                              <a href="{{route('Wizard Validate')}}" class="svg-icon">
-                                                  <i class="las la-minus"></i><span class="">Form Wizard Validate</span>
-                                              </a>
-                                          </li>
-                                          <li class="">
-                                              <a href="{{route('Wizard Vertical')}}" class="svg-icon">
-                                                  <i class="las la-minus"></i><span class="">Form Wizard Vertical</span>
                                               </a>
                                           </li>
                                       </ul>
@@ -382,23 +357,18 @@
                                       </a>
                                       <ul id="table" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="{{route('Table Basic')}}">
+                                                  <a href="../backend/tables-basic.html">
                                                       <i class="las la-minus"></i><span>Basic Tables</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Table Data')}}">
+                                                  <a href="../backend/table-data.html">
                                                       <i class="las la-minus"></i><span>Data Table</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Table Tree')}}">
+                                                  <a href="../backend/table-tree.html">
                                                       <i class="las la-minus"></i><span>Table Tree</span>
-                                                  </a>
-                                              </li>
-                                              <li class="">
-                                                  <a href="{{route('Table Editable')}}">
-                                                      <i class="las la-minus"></i><span>Editable Table</span>
                                                   </a>
                                               </li>
                                       </ul>
@@ -414,83 +384,19 @@
                                       </a>
                                       <ul id="pricing" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="{{route('Pricing 1')}}">
+                                                  <a href="../backend/pricing.html">
                                                       <i class="las la-minus"></i><span>Pricing 1</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Pricing 2')}}">
+                                                  <a href="../backend/pricing-2.html">
                                                       <i class="las la-minus"></i><span>Pricing 2</span>
-                                                  </a>
-                                              </li>
-                                              <li class="">
-                                                  <a href="{{route('Pricing 3')}}">
-                                                      <i class="las la-minus"></i><span>Pricing 3</span>
-                                                  </a>
-                                              </li>
-                                              <li class="">
-                                                  <a href="{{route('Pricing 4')}}">
-                                                      <i class="las la-minus"></i><span>Pricing 4</span>
                                                   </a>
                                               </li>
                                       </ul>
                                   </li>
-                                  <li class=" ">
-                                    <a href="#contact" class="collapsed" data-toggle="collapse" aria-expanded="false">
-                                        <svg class="svg-icon" id="p-dash16" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-                                        </svg>
-                                        <span class="ml-4">Contact</span>
-                                        <i class="las la-angle-right iq-arrow-right arrow-active"></i>
-                                        <i class="las la-angle-down iq-arrow-right arrow-hover"></i>
-                                    </a>
-                                    <ul id="contact" class="iq-submenu collapse" data-parent="#otherpage">
-                                            <li class="">
-                                                <a href="{{route('User Contact Detail')}}">
-                                                    <i class="las la-minus"></i><span>Contact Detail</span>
-                                                </a>
-                                            </li>
-                                            <li class="">
-                                                <a href="{{route('User Contact List')}}">
-                                                    <i class="las la-minus"></i><span>Contact List</span>
-                                                </a>
-                                            </li>
-                                    </ul>
-                                    </li>
-                                  <li class=" ">
-                                    <a href="#charts" class="collapsed" data-toggle="collapse" aria-expanded="false">
-                                        <svg class="svg-icon" id="p-dash16" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-                                        </svg>
-                                        <span class="ml-4">Charts</span>
-                                        <i class="las la-angle-right iq-arrow-right arrow-active"></i>
-                                        <i class="las la-angle-down iq-arrow-right arrow-hover"></i>
-                                    </a>
-                                    <ul id="charts" class="iq-submenu collapse" data-parent="#otherpage">
-                                            <li class="">
-                                                <a href="{{route('Chart am')}}">
-                                                    <i class="las la-minus"></i><span>Chart Am</span>
-                                                </a>
-                                            </li>
-                                            <li class="">
-                                                <a href="{{route('Chart apex')}}">
-                                                    <i class="las la-minus"></i><span>Chart Apex</span>
-                                                </a>
-                                            </li>
-                                            <li class="">
-                                                <a href="{{route('Chart high')}}">
-                                                    <i class="las la-minus"></i><span>Chart High</span>
-                                                </a>
-                                            </li>
-                                            <li class="">
-                                                <a href="{{route('Chart morries')}}">
-                                                    <i class="las la-minus"></i><span>Chart Morries</span>
-                                                </a>
-                                            </li>
-                                    </ul>
-                                </li>
                                   <li class="">
-                                      <a href="{{route('Timeline')}}" class="svg-icon">
+                                      <a href="../backend/timeline.html" class="svg-icon">
                                           <svg class="svg-icon" id="p-dash016" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                           <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
                                           </svg>
@@ -498,7 +404,7 @@
                                       </a>
                                   </li>
                                   <li class="">
-                                      <a href="{{route('Invoice')}}" class="svg-icon">
+                                      <a href="../backend/pages-invoice.html" class="svg-icon">
                                           <svg class="svg-icon" id="p-dash07" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                               <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
                                           </svg>
@@ -516,19 +422,19 @@
                                       </a>
                                       <ul id="pages-error" class="iq-submenu collapse" data-parent="#otherpage">
                                               <li class="">
-                                                  <a href="{{route('Error 404')}}">
+                                                  <a href="../backend/pages-error.html">
                                                       <i class="las la-minus"></i><span>Error 404</span>
                                                   </a>
                                               </li>
                                               <li class="">
-                                                  <a href="{{route('Error 500')}}">
+                                                  <a href="../backend/pages-error-500.html">
                                                       <i class="las la-minus"></i><span>Error 500</span>
                                                   </a>
                                               </li>
                                       </ul>
                                   </li>
                                   <li class="">
-                                          <a href="{{route('Blank Page')}}">
+                                          <a href="../backend/pages-blank-page.html">
                                               <svg class="svg-icon" id="p-dash18" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                                   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
                                               </svg>
@@ -536,7 +442,7 @@
                                           </a>
                                   </li>
                                   <li class="">
-                                          <a href="{{route('Maintenance')}}">
+                                          <a href="../backend/pages-maintenance.html">
                                               <svg class="svg-icon" id="p-dash19" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                                   <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
                                               </svg>
@@ -567,17 +473,15 @@
               </div>
               <div class="pt-5 pb-2"></div>
           </div>
-      </div>      
-      
-      <div class="iq-top-navbar">
+      </div>      <div class="iq-top-navbar">
           <div class="iq-navbar-custom">
               <nav class="navbar navbar-expand-lg navbar-light p-0">
                   <div class="iq-navbar-logo d-flex align-items-center justify-content-between">
                       <i class="ri-menu-line wrapper-menu"></i>
-                      <!-- <a href="../backend/index.html" class="header-logo">
+                      <a href="../backend/index.html" class="header-logo">
                           <h4 class="logo-title text-uppercase">Webkit</h4>
       
-                      </a> -->
+                      </a>
                   </div>
                   <div class="navbar-breadcrumb">
                       <h5>Dashboard</h5>
@@ -778,32 +682,32 @@
                                           <svg class="svg-icon mr-0 text-primary" id="h-01-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                           </svg>
-                                          <a href="{{route('User Profile')}}">My Profile</a>
+                                          <a href="../app/user-profile.html">My Profile</a>
                                       </li>
                                       <li class="dropdown-item d-flex svg-icon">
                                           <svg class="svg-icon mr-0 text-primary" id="h-02-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
                                           </svg>
-                                          <a href="{{route('Edit User Profile')}}">Edit Profile</a>
+                                          <a href="../app/user-profile-edit.html">Edit Profile</a>
                                       </li>
                                       <li class="dropdown-item d-flex svg-icon">
                                           <svg class="svg-icon mr-0 text-primary" id="h-03-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
                                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                                           </svg>
-                                          <a href="{{route('User Account Setting')}}">Account Settings</a>
+                                          <a href="../app/user-account-setting.html">Account Settings</a>
                                       </li>
                                       <li class="dropdown-item d-flex svg-icon">
                                           <svg class="svg-icon mr-0 text-primary" id="h-04-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                                           </svg>
-                                          <a href="{{route('User Privacy Setting')}}">Privacy Settings</a>
+                                          <a href="../app/user-privacy-setting.html">Privacy Settings</a>
                                       </li>
                                       <li class="dropdown-item  d-flex svg-icon border-top">
                                           <svg class="svg-icon mr-0 text-primary" id="h-05-p" width="20" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
                                           </svg>
-                                          <a href="{{route('Sign In')}}">Logout</a>
+                                          <a href="../backend/auth-sign-in.html">Logout</a>
                                       </li>
                                   </ul>
                               </li>
@@ -812,560 +716,338 @@
                   </div>
               </nav>
           </div>
-      </div>      
-      
-      <div class="content-page">
-     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-block card-stretch card-height">
-                    <div class="card-body">
-                        <div class="top-block d-flex align-items-center justify-content-between">
-                            <h5>Investment</h5>
-                            <span class="badge badge-primary">Monthly</span>
-                        </div>
-                        <h3>$<span class="counter">35000</span></h3>
-                        <div class="d-flex align-items-center justify-content-between mt-1">
-                            <p class="mb-0">Total Revenue</p>
-                            <span class="text-primary">65%</span>
-                        </div>
-                        <div class="iq-progress-bar bg-primary-light mt-2">
-                            <span class="bg-primary iq-progress progress-1" data-percent="65"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-block card-stretch card-height">
-                    <div class="card-body">
-                        <div class="top-block d-flex align-items-center justify-content-between">
-                            <h5>Sales</h5>
-                            <span class="badge badge-warning">Anual</span>
-                        </div>
-                        <h3>$<span class="counter">25100</span></h3>
-                        <div class="d-flex align-items-center justify-content-between mt-1">
-                            <p class="mb-0">Total Revenue</p>
-                            <span class="text-warning">35%</span>
-                        </div>
-                        <div class="iq-progress-bar bg-warning-light mt-2">
-                            <span class="bg-warning iq-progress progress-1" data-percent="35"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-block card-stretch card-height">
-                    <div class="card-body">
-                        <div class="top-block d-flex align-items-center justify-content-between">
-                            <h5>Cost</h5>
-                            <span class="badge badge-success">Today</span>
-                        </div>
-                        <h3>$<span class="counter">33000</span></h3>
-                        <div class="d-flex align-items-center justify-content-between mt-1">
-                            <p class="mb-0">Total Revenue</p>
-                            <span class="text-success">85%</span>
-                        </div>
-                        <div class="iq-progress-bar bg-success-light mt-2">
-                            <span class="bg-success iq-progress progress-1" data-percent="85"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-block card-stretch card-height">
-                    <div class="card-body">
-                        <div class="top-block d-flex align-items-center justify-content-between">
-                            <h5>Profit</h5>
-                            <span class="badge badge-info">Weekly</span>
-                        </div>
-                        <h3>$<span class="counter">2500</span></h3>
-                        <div class="d-flex align-items-center justify-content-between mt-1">
-                            <p class="mb-0">Total Revenue</p>
-                            <span class="text-info">55%</span>
-                        </div>
-                        <div class="iq-progress-bar bg-info-light mt-2">
-                            <span class="bg-info iq-progress progress-1" data-percent="55"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-8">
-                <div class="card-transparent card-block card-stretch card-height">
-                    <div class="card-body p-0">
-                        <div class="card">
-                            <div class="card-header d-flex justify-content-between">
-                                <div class="header-title">
-                                    <h4 class="card-title">Overview Progress</h4>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <ul class="list-inline p-0 mb-0">
-                                    <li class="mb-1">
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <p class="mb-0">UX / UI Design</p>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="iq-progress-bar bg-secondary-light">
-                                                        <span class="bg-secondary iq-progress progress-1" data-percent="65"></span>
-                                                    </div>
-                                                    <span class="ml-3">65%</span>
-                                                </div>                                                                
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="iq-media-group text-sm-right">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/05.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/06.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/07.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="mb-1">
-                                        <div class="d-flex align-items-center justify-content-between row">
-                                            <div class="col-sm-3">
-                                                <p class="mb-0">Development</p>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="iq-progress-bar bg-primary-light">
-                                                        <span class="bg-primary iq-progress progress-1" data-percent="59"></span>
-                                                    </div>
-                                                    <span class="ml-3">59%</span>
-                                                </div>                                                                
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="iq-media-group text-sm-right">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/08.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/09.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/04.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="d-flex align-items-center justify-content-between row">
-                                            <div class="col-sm-3">
-                                                <p class="mb-0">Testing</p>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="iq-progress-bar bg-warning-light">
-                                                        <span class="bg-warning iq-progress progress-1" data-percent="78"></span>
-                                                    </div>
-                                                    <span class="ml-3">78%</span>
-                                                </div>                                                                
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="iq-media-group text-sm-right">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/01.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/02.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/03.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-8">
-                                                <div class="row align-items-center">
-                                                    <div class="col-md-3">
-                                                        <div id="circle-progress-21" class="circle-progress-01 circle-progress circle-progress-primary" data-min-value="0" data-max-value="100" data-value="25" data-type="percent"></div>
-                                                    </div>
-                                                    <div class="col-md-9">
-                                                        <div class="mt-3 mt-md-0">
-                                                            <h5 class="mb-1">Cloud Service Theme</h5>
-                                                            <p class="mb-0">Exclusively for cloud-based/ Startup theme.</p>
-                                                        </div>                                                        
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 text-sm-right mt-3 mt-sm-0">
-                                                <div class="iq-media-group">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/05.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/06.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <a class="btn btn-white text-primary link-shadow mt-2">High</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-8">
-                                                <div class="row align-items-center">
-                                                    <div class="col-md-3">
-                                                        <div id="circle-progress-22" class="circle-progress-01 circle-progress circle-progress-secondary" data-min-value="0" data-max-value="100" data-value="30" data-type="percent"></div>
-                                                    </div>
-                                                    <div class="col-md-9">
-                                                        <div class="mt-3 mt-md-0">
-                                                            <h5 class="mb-1">Automotive WordPress</h5>
-                                                            <p class="mb-0">Dealership-based business WordPress theme.</p>
-                                                    </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 text-sm-right mt-3 mt-sm-0">
-                                                <div class="iq-media-group">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/07.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/02.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/04.jpg" alt="">
-                                                    </a>                                                
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/08.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <a class="btn btn-white text-secondary link-shadow mt-2">Medium</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-8">
-                                                <div class="row align-items-center">
-                                                    <div class="col-md-3">
-                                                        <div id="circle-progress-23" class="circle-progress-01 circle-progress circle-progress-warning" data-min-value="0" data-max-value="100" data-value="15" data-type="percent"></div>
-                                                    </div>
-                                                    <div class="col-md-9">
-                                                        <div class="mt-3 mt-md-0">
-                                                            <h5 class="mb-1">Online Education</h5>
-                                                            <p class="mb-0">Remote students and teachers dashboard.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 text-sm-right mt-3 mt-sm-0">
-                                                <div class="iq-media-group">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/01.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/02.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/03.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <a class="btn btn-white text-warning link-shadow mt-2">Low</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="card mb-0">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-sm-8">
-                                                <div class="row align-items-center">
-                                                    <div class="col-md-3">
-                                                        <div id="circle-progress-24" class="circle-progress-01 circle-progress circle-progress-success" data-min-value="0" data-max-value="100" data-value="40" data-type="percent"></div>
-                                                    </div>
-                                                    <div class="col-md-9">
-                                                        <div class="mt-3 mt-md-0">
-                                                            <h5 class="mb-1">Blog/Magazine Theme</h5>
-                                                            <p class="mb-0">Launch visually appealing Blog theme.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4 text-sm-right mt-3 mt-sm-0">
-                                                <div class="iq-media-group">
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/05.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/06.jpg" alt="">
-                                                    </a>
-                                                    <a href="#" class="iq-media">
-                                                        <img class="img-fluid avatar-40 rounded-circle" src="../assets/images/user/07.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <a class="btn btn-white text-success  link-shadow mt-2">High</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="card card-block card-stretch card-height">
-                    <div class="card-body">
-                        <div class="card border-bottom pb-2 shadow-none">
-                            <div class="card-body text-center inln-date flet-datepickr">
-                                <input type="text" id="inline-date" class="date-input basicFlatpickr d-none" readonly="readonly">
-                            </div>
-                        </div>
-                        <div class="card card-list">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <svg class="svg-icon text-secondary mr-3" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                    <div class="pl-3 border-left">
-                                        <h5 class="mb-1">Direct Development</h5>
-                                        <p class="mb-0">Unveling the design system</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-list">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <svg class="svg-icon text-primary mr-3" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
-                                        <path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path>
-                                    </svg>
-                                    <div class="pl-3 border-left">
-                                        <h5 class="mb-1">action point assigned</h5>
-                                        <p class="mb-0">Unveling the design system</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-list">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <svg class="svg-icon text-warning mr-3" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
-                                    </svg>
-                                    <div class="pl-3 border-left">
-                                        <h5 class="mb-1">Private Notes</h5>
-                                        <p class="mb-0">Unveling the design system</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-list mb-0">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <svg class="svg-icon text-success mr-3" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                                    </svg>
-                                    <div class="pl-3 border-left">
-                                        <h5 class="mb-1">Support Request</h5>
-                                        <p class="mb-0">Unveling the design system</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>      <div class="content-page">
+      <div class="container-fluid">
+         <div class="row">
             <div class="col-lg-12">
-                <div class="card-transparent mb-0">
-                    <div class="card-header d-flex align-items-center justify-content-between p-0 pb-3">
-                        <div class="header-title">
-                            <h4 class="card-title">Current Projects</h4>
-                        </div>
-                        <div class="card-header-toolbar d-flex align-items-center">
-                            <div id="top-project-slick-arrow" class="slick-aerrow-block">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body p-0">
-                        <ul class="list-unstyled row top-projects mb-0">
-                            <li class="col-lg-4">                                    
-                                <div class="card">
-                                    <div class="card-body"> 
-                                        <h5 class="mb-3">Hotel Management App UI Kit</h5>
-                                        <p class="mb-3"><i class="las la-calendar-check mr-2"></i>02 / 02 / 2021</p>
-                                        <div class="iq-progress-bar bg-secondary-light mb-4">
-                                            <span class="bg-secondary iq-progress progress-1" data-percent="65" style="transition: width 2s ease 0s; width: 65%;"></span>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <div class="iq-media-group">
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/01.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/02.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/03.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/04.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <a href="#" class="btn bg-secondary-light">Design</a>
-                                            </div>
-                                        </div>
+               <div class="card card-block card-stretch card-height">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="iq-header-title">
+                        <h4 class="card-title mb-0">Contact List</h4>
+                     </div>
+                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#addContact">Add New</a>
+                  </div>
+                  <div class="card-body">
+                     <div class="table-responsive">
+                        <table class="data-table table" style="width:100%">
+                           <thead>
+                              <tr>
+                                 <th>Profile</th>
+                                 <th>Name</th>
+                                 <th>Email</th>
+                                 <th>Phone No.</th>
+                                 <th>Action</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <img src="../assets/images/user/01.jpg"  class="rounded avatar-40 img-fluid" alt="">
+                                 </td>
+                                 <td>Anna Sthesia</td>
+                                 <td>annasthesia@gmail.com</td>
+                                 <td>(760) 756 7568</td>
+                                 <td>
+                                    <div class="d-flex align-items-center list-action">
+                                       <a class="badge bg-warning-light mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Rating"
+                                          href="#"><i class="far fa-star"></i></a>
+                                       <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="View"
+                                          href="#"><i class="lar la-eye"></i></a>
+                                       <span class="badge bg-primary-light" data-toggle="tooltip" data-placement="top" title="" data-original-title="Action"
+                                             href="#">
+                                             <div class="dropdown">
+                                                <span class="text-primary dropdown-toggle action-item" id="moreOptions1" data-toggle="dropdown" aria-haspopup="true"
+                                                   aria-expanded="false" href="#">
+                                                   
+                                                </span>
+                                                <div class="dropdown-menu" aria-labelledby="moreOptions1">
+                                                   <a class="dropdown-item" href="#">Edit</a>
+                                                   <a class="dropdown-item" href="#">Delete</a>
+                                                   <a class="dropdown-item" href="#">Hide from Contacts</a>
+                                                </div>
+                                             </div>
+                                       </span>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-body"> 
-                                        <h5 class="mb-3">General Improvement in pages</h5>
-                                        <p class="mb-3"><i class="las la-calendar-check mr-2"></i>02 / 02 / 2021</p>
-                                        <div class="iq-progress-bar bg-info-light mb-4">
-                                            <span class="bg-info iq-progress progress-1" data-percent="65" style="transition: width 2s ease 0s; width: 65%;"></span>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <div class="iq-media-group">
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/05.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/06.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/07.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/08.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <a href="#" class="btn bg-info-light">Testing</a>
-                                            </div>
-                                        </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <img src="../assets/images/user/02.jpg" class="rounded avatar-40 img-fluid" alt="">
+                                 </td>
+                                 <td>Brock Lee</td>
+                                 <td>brocklee@gmail.com</td>
+                                 <td>+62 5689 458 658</td>
+                                 <td>
+                                    <div class="d-flex align-items-center list-action">
+                                       <a class="badge bg-warning-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                          data-original-title="Rating" href="#"><i class="far fa-star"></i></a>
+                                       <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="View"
+                                          href="#"><i class="lar la-eye"></i></a>
+                                       <span class="badge bg-primary-light" data-toggle="tooltip" data-placement="top" title="" data-original-title="Action"
+                                          href="#">
+                                          <div class="dropdown">
+                                             <span class="text-primary dropdown-toggle action-item" id="moreOptions1" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false" href="#">
+                                    
+                                             </span>
+                                             <div class="dropdown-menu" aria-labelledby="moreOptions1">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                                <a class="dropdown-item" href="#">Hide from Contacts</a>
+                                             </div>
+                                          </div>
+                                       </span>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-body"> 
-                                        <h5 class="mb-3">Product list view changes</h5>
-                                        <p class="mb-3"><i class="las la-calendar-check mr-2"></i>02 / 02 / 2021</p>
-                                        <div class="iq-progress-bar bg-success-light mb-4">
-                                            <span class="bg-success iq-progress progress-1" data-percent="65" style="transition: width 2s ease 0s; width: 65%;"></span>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <div class="iq-media-group">
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/03.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/04.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/05.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/06.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <a href="#" class="btn bg-success-light">SEO</a>
-                                            </div>
-                                        </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <img src="../assets/images/user/03.jpg" class="rounded avatar-40 img-fluid" alt="">
+                                 </td>
+                                 <td>Dan Druff</td>
+                                 <td>dandruff@gmail.com</td>
+                                 <td>+55 6523 456 856</td>
+                                 <td>
+                                    <div class="d-flex align-items-center list-action">
+                                       <a class="badge bg-warning-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                          data-original-title="Rating" href="#"><i class="far fa-star"></i></a>
+                                       <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="View"
+                                          href="#"><i class="lar la-eye"></i></a>
+                                       <span class="badge bg-primary-light" data-toggle="tooltip" data-placement="top" title="" data-original-title="Action"
+                                          href="#">
+                                          <div class="dropdown">
+                                             <span class="text-primary dropdown-toggle action-item" id="moreOptions1" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false" href="#">
+                                    
+                                             </span>
+                                             <div class="dropdown-menu" aria-labelledby="moreOptions1">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                                <a class="dropdown-item" href="#">Hide from Contacts</a>
+                                             </div>
+                                          </div>
+                                       </span>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-body"> 
-                                        <h5 class="mb-3">Add Multiple theme options</h5>
-                                        <p class="mb-3"><i class="las la-calendar-check mr-2"></i>02 / 02 / 2021</p>
-                                        <div class="iq-progress-bar bg-warning-light mb-4">
-                                            <span class="bg-warning iq-progress progress-1" data-percent="65" style="transition: width 2s ease 0s; width: 65%;"></span>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <div class="iq-media-group">
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/01.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/02.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/03.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/04.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <a href="#" class="btn bg-warning-light">Development</a>
-                                            </div>
-                                        </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <img src="../assets/images/user/04.jpg" class="rounded avatar-40 img-fluid" alt="">
+                                 </td>
+                                 <td>Hans Olo</td>
+                                 <td>hansolo@gmail.com</td>
+                                 <td>+91 2586 253 125</td>
+                                 <td>
+                                    <div class="d-flex align-items-center list-action">
+                                       <a class="badge bg-warning-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                          data-original-title="Rating" href="#"><i class="far fa-star"></i></a>
+                                       <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="View"
+                                          href="#"><i class="lar la-eye"></i></a>
+                                       <span class="badge bg-primary-light" data-toggle="tooltip" data-placement="top" title="" data-original-title="Action"
+                                          href="#">
+                                          <div class="dropdown">
+                                             <span class="text-primary dropdown-toggle action-item" id="moreOptions1" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false" href="#">
+                                    
+                                             </span>
+                                             <div class="dropdown-menu" aria-labelledby="moreOptions1">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                                <a class="dropdown-item" href="#">Hide from Contacts</a>
+                                             </div>
+                                          </div>
+                                       </span>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-body"> 
-                                        <h5 class="mb-3">Admin Panel Customization</h5>
-                                        <p class="mb-3"><i class="las la-calendar-check mr-2"></i>02 / 02 / 2021</p>
-                                        <div class="iq-progress-bar bg-primary-light mb-4">
-                                            <span class="bg-primary iq-progress progress-1" data-percent="65"></span>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <div class="iq-media-group">
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/01.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/02.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/03.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                                <a href="#" class="iq-media">
-                                                    <img src="../assets/images/user/04.jpg" class="img-fluid avatar-40 rounded-circle" alt="">
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <a href="#" class="btn bg-primary-light">Content</a>
-                                            </div>
-                                        </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <img src="../assets/images/user/05.jpg" class="rounded avatar-40 img-fluid" alt="">
+                                 </td>
+                                 <td>Lynn Guini</td>
+                                 <td>lynnguini@gmail.com</td>
+                                 <td>+27 2563 456 589</td>
+                                 <td>
+                                    <div class="d-flex align-items-center list-action">
+                                       <a class="badge bg-warning-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                          data-original-title="Rating" href="#"><i class="far fa-star"></i></a>
+                                       <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="View"
+                                          href="#"><i class="lar la-eye"></i></a>
+                                       <span class="badge bg-primary-light" data-toggle="tooltip" data-placement="top" title="" data-original-title="Action"
+                                          href="#">
+                                          <div class="dropdown">
+                                             <span class="text-primary dropdown-toggle action-item" id="moreOptions1" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false" href="#">
+                                    
+                                             </span>
+                                             <div class="dropdown-menu" aria-labelledby="moreOptions1">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                                <a class="dropdown-item" href="#">Hide from Contacts</a>
+                                             </div>
+                                          </div>
+                                       </span>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <img src="../assets/images/user/06.jpg"  class="rounded avatar-40 img-fluid" alt="">
+                                 </td>
+                                 <td>Eric Shun</td>
+                                 <td>ericshun@gmail.com</td>
+                                 <td>+55 2568 256 589</td>
+                                 <td>
+                                    <div class="d-flex align-items-center list-action">
+                                       <a class="badge bg-warning-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                          data-original-title="Rating" href="#"><i class="far fa-star"></i></a>
+                                       <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="View"
+                                          href="#"><i class="lar la-eye"></i></a>
+                                       <span class="badge bg-primary-light" data-toggle="tooltip" data-placement="top" title="" data-original-title="Action"
+                                          href="#">
+                                          <div class="dropdown">
+                                             <span class="text-primary dropdown-toggle action-item" id="moreOptions1" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false" href="#">
+                                    
+                                             </span>
+                                             <div class="dropdown-menu" aria-labelledby="moreOptions1">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                                <a class="dropdown-item" href="#">Hide from Contacts</a>
+                                             </div>
+                                          </div>
+                                       </span>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <img src="../assets/images/user/07.jpg" class="rounded avatar-40 img-fluid" alt="">
+                                 </td>
+                                 <td>aaronottix</td>
+                                 <td>budwiser@ymail.com</td>
+                                 <td>(760) 765 2658</td>
+                                 <td>
+                                    <div class="d-flex align-items-center list-action">
+                                       <a class="badge bg-warning-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                          data-original-title="Rating" href="#"><i class="far fa-star"></i></a>
+                                       <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="View"
+                                          href="#"><i class="lar la-eye"></i></a>
+                                       <span class="badge bg-primary-light" data-toggle="tooltip" data-placement="top" title="" data-original-title="Action"
+                                          href="#">
+                                          <div class="dropdown">
+                                             <span class="text-primary dropdown-toggle action-item" id="moreOptions1" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false" href="#">
+                                    
+                                             </span>
+                                             <div class="dropdown-menu" aria-labelledby="moreOptions1">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                                <a class="dropdown-item" href="#">Hide from Contacts</a>
+                                             </div>
+                                          </div>
+                                       </span>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <img src="../assets/images/user/08.jpg" class="rounded avatar-40 img-fluid" alt="">
+                                 </td>
+                                 <td>Marge Arita</td>
+                                 <td>margearita@gmail.com</td>
+                                 <td>+27 5625 456 589</td>
+                                 <td>
+                                    <div class="d-flex align-items-center list-action">
+                                       <a class="badge bg-warning-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                          data-original-title="Rating" href="#"><i class="far fa-star"></i></a>
+                                       <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="View"
+                                          href="#"><i class="lar la-eye"></i></a>
+                                       <span class="badge bg-primary-light" data-toggle="tooltip" data-placement="top" title="" data-original-title="Action"
+                                          href="#">
+                                          <div class="dropdown">
+                                             <span class="text-primary dropdown-toggle action-item" id="moreOptions1" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false" href="#">
+                                    
+                                             </span>
+                                             <div class="dropdown-menu" aria-labelledby="moreOptions1">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                                <a class="dropdown-item" href="#">Hide from Contacts</a>
+                                             </div>
+                                          </div>
+                                       </span>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <img src="../assets/images/user/09.jpg" class="rounded avatar-40 img-fluid" alt="">
+                                 </td>
+                                 <td>Bill Dabear</td>
+                                 <td>billdabear@gmail.com</td>
+                                 <td>+55 2563 456 589</td>
+                                 <td>
+                                    <div class="d-flex align-items-center list-action">
+                                       <a class="badge bg-warning-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                          data-original-title="Rating" href="#"><i class="far fa-star"></i></a>
+                                       <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="View"
+                                          href="#"><i class="lar la-eye"></i></a>
+                                       <span class="badge bg-primary-light" data-toggle="tooltip" data-placement="top" title="" data-original-title="Action"
+                                          href="#">
+                                          <div class="dropdown">
+                                             <span class="text-primary dropdown-toggle action-item" id="moreOptions1" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false" href="#">
+                                    
+                                             </span>
+                                             <div class="dropdown-menu" aria-labelledby="moreOptions1">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                                <a class="dropdown-item" href="#">Hide from Contacts</a>
+                                             </div>
+                                          </div>
+                                       </span>
+                                    </div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <img src="../assets/images/user/10.jpg" class="rounded avatar-40 img-fluid" alt="">
+                                 </td>
+                                 <td>John Doe</td>
+                                 <td>Johndoe@gmail.com</td>
+                                 <td>+55 2598 256 890</td>
+                                 <td>
+                                    <div class="d-flex align-items-center list-action">
+                                       <a class="badge bg-warning-light mr-2" data-toggle="tooltip" data-placement="top" title=""
+                                          data-original-title="Rating" href="#"><i class="far fa-star"></i></a>
+                                       <a class="badge bg-success-light mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="View"
+                                          href="#"><i class="lar la-eye"></i></a>
+                                       <span class="badge bg-primary-light" data-toggle="tooltip" data-placement="top" title="" data-original-title="Action"
+                                          href="#">
+                                          <div class="dropdown">
+                                             <span class="text-primary dropdown-toggle action-item" id="moreOptions1" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false" href="#">
+                                    
+                                             </span>
+                                             <div class="dropdown-menu" aria-labelledby="moreOptions1">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                                <a class="dropdown-item" href="#">Hide from Contacts</a>
+                                             </div>
+                                          </div>
+                                       </span>
+                                    </div>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-        <!-- Page end  -->
-    </div>
+         </div>
+      </div>
       </div>
     </div>
     <!-- Wrapper End-->
@@ -1646,7 +1328,7 @@
             </div>
         </div>
     </footer>
-    <!-- Backend Bundle JavaScript -->
+        <!-- Backend Bundle JavaScript -->
     <script src="{{asset('assets/auth/js/backend-bundle.min.js')}}"></script>
      
     <!-- Table Treeview JavaScript -->
@@ -1664,5 +1346,7 @@
     <script src="{{asset('assets/auth/js/app.js')}}"></script>
     
     <script src="{{asset('assets/auth/vendor/moment.min.js')}}"></script>
+    
+    <script src="../assets/vendor/moment.min.js"></script>
   </body>
 </html>

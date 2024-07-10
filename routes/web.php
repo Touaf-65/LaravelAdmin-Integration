@@ -65,6 +65,14 @@ Route::get('/user-profile', function () {
     return view('dashboard.user_management.user-profile');
 })-> name('User Profile');
 
+Route::get('/user-account-setting', function () {
+    return view('dashboard.user_management.user-account-setting');
+})-> name('User Account Setting');
+
+Route::get('/user-privacy-setting', function () {
+    return view('dashboard.user_management.user-privacy-setting');
+})-> name('User Privacy Setting');
+
 Route::get('/user-profile-edit', function () {
     return view('dashboard.user_management.user-profile-edit');
 })-> name('Edit User Profile');
@@ -76,6 +84,14 @@ Route::get('/user-add', function () {
 Route::get('/user-list', function () {
     return view('dashboard.user_management.user-list');
 })-> name('User List');
+
+Route::get('/user-contact-detail', function () {
+    return view('dashboard.contact.contact-detail');
+})-> name('User Contact Detail');
+
+Route::get('/user-contact-list', function () {
+    return view('dashboard.contact.contact-list');
+})-> name('User Contact List');
 
 Route::get('/ui-avatars', function () {
     return view('dashboard.ui-elements.ui-avatars');
@@ -276,3 +292,23 @@ Route::get('/error500', function () {
 Route::get('/blank-page', function () {
     return view('dashboard.pages.pages-blank-page');
 })-> name('Blank Page');
+
+Route::get('/in-maintenance', function () {
+    return view('dashboard.maintenance.pages-maintenance');
+})-> name('Maintenance');
+
+Route::get('/chart-am', function () {
+    return view('dashboard.charts.chart-am');
+})-> name('Chart am');
+
+Route::get('/chart-apex', function () {
+    return view('dashboard.charts.chart-apex');
+})-> name('Chart apex');
+
+Route::get('/chart-high', function () {
+    return view('dashboard.charts.chart-high');
+})-> name('Chart high');
+
+Route::get('/chart-morries', function () {
+    return view('dashboard.charts.chart-morries');
+})-> name('Chart morries');
